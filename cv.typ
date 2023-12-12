@@ -1,32 +1,14 @@
-#show heading: set text(font: "Linux Biolinum")
-#show link: underline
-
-// Uncomment the following lines to adjust the size of text
-// The recommend resume text size is from `10pt` to `12pt`
-#set text(
-  size: 12pt,
+#import "template.typ": conf
+#show: doc => conf(
+  name: "Lejun Min",
+  identity: "Researcher, Artist",
+  contact: [
+    aik2mlj\@gmail.com | #link("https://aik2.site")[aik2.site]
+  ],
+  doc
 )
 
-// Feel free to change the margin below to best fit your own CV
-#set page(
-  margin: (x: 1cm, y: 1.3cm),
-)
-
-// For more customizable options, please refer to official reference: https://typst.app/docs/reference/
-
-#set par(justify: true, leading: 0.7em)
-#set list(indent: 0.8em)
-
-#let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
-
-#set align(center)
-#text(size: 20pt)[*Lejun Min*] \
-Researcher, Artist \
-aik2mlj\@gmail.com | #link("https://aik2.site")[aik2.site]
-
-#set align(left)
 == EDUCATION
-#chiline()
 
 *Center for Computer Research in Music and Acoustics (CCMRA), Stanford* #h(1fr) Starting in Sept. 2024 \
 Master of Music, Science, and Technology (Admitted, Enrollment Deferred) #h(1fr) Palo Alto, California
@@ -39,7 +21,6 @@ Bachelor of Engineering in Computer Science #h(1fr) Shanghai, China \
 - GPA: 88.5 / 100 (*top 10 student*).
 
 == PUBLICATIONS
-#chiline()
 
 Ziyu Wang, *Lejun Min*, Gus Xia, "Whole-song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models", submitted to _Proc. 12#super[th] International Conference on Learning Representations (ICLR 2024)_. [#link("https://openreview.net/forum?id=sn7CYWyavh")[OpenReview]]
 
@@ -47,7 +28,6 @@ Ziyu Wang, *Lejun Min*, Gus Xia, "Whole-song Hierarchical Generation of Symbolic
 
 
 == ACADEMIC EXPERIENCE
-#chiline()
 
 *Controllable Symbolic Music Generation with Diffusion Models* #h(1fr) June 2022 – Present \
 Research Assistant at Machine Learning Department, MBZUAI #h(1fr) Abu Dhabi, UAE
@@ -68,7 +48,6 @@ Researcher at John Hopcroft Center for Computer Science #h(1fr) Shanghai, China
 - Advisor: Prof. Chihao Zhang.
 
 == TEACHING
-#chiline()
 
 *Design and Analysis of Algorithms (AI2615)* #h(1fr) Spring 2022 \
 Teaching Assistant at SJTU #h(1fr) Shanghai, China
@@ -83,13 +62,11 @@ Teaching Assistant at SJTU #h(1fr) Shanghai, China
 - Supervisor: Prof. Yong Yu.
 
 == LANGUAGE PROFICIENCY
-#chiline()
 
 *TOEFL*: *112* (Reading *30*, Listening *30*, Speaking *24*, Writing *28*) \
 *GRE*: Verbal *162*, Quantitative *170*, Writing *4.0*
 
 == SKILLS
-#chiline()
 
 *Computer Science Skills*
 - C, C++, Python, Java, Rust, Verilog, Git.
@@ -112,7 +89,6 @@ Teaching Assistant at SJTU #h(1fr) Shanghai, China
 - Experienced in 3D modeling.
 
 == LEADERSHIP
-#chiline()
 
 *Zhihui Camp, Zhiyuan College* #h(1fr) Sept. 2020 \
 Group Leader #h(1fr) Shanghai, China
