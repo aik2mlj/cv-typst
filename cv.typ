@@ -41,9 +41,9 @@ Bachelor of Engineering in Computer Science #h(1fr) Shanghai, China \
 == PUBLICATIONS
 #chiline()
 
-Ziyu Wang, *Lejun Min*, Gus Xia, "Whole-song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models", submitted to _Proc. 12#super[th] International Conference on Learning Representations (ICLR 2024)_. [#link("https://openreview.net/forum?id=sn7CYWyavh")[OpenReview]]
+Ziyu Wang, *Lejun Min*, Gus Xia, "Whole-song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models", *Spotlight (top 5%)* in _Proc. 12#super[th] International Conference on Learning Representations (ICLR 2024)_. [#link("https://openreview.net/forum?id=sn7CYWyavh")[OpenReview]]
 
-*Lejun Min*, Junyan Jiang, Gus Xia, Jingwei Zhao, "Polyffusion: A Diffusion Model for Polyphonic Score Generation with Internal and External Controls", in _Proc. 24#super[th] International Society for Music Information Retrieval Conference (ISMIR 2023)_, Milan, November 2023. [#link("https://arxiv.org/abs/2307.10304")[arXiv]]
+*Lejun Min*, Junyan Jiang, Gus Xia, Jingwei Zhao, "Polyffusion: A Diffusion Model for Polyphonic Score Generation with Internal and External Controls", in _Proc. 24#super[th] International Society for Music Information Retrieval Conference (ISMIR 2023)_, Milan, November 2023. [#link("https://arxiv.org/abs/2307.10304")[arXiv]] [#link("https://ismir2023program.ismir.net/poster_51.html")[poster]]
 
 
 == ACADEMIC EXPERIENCE
