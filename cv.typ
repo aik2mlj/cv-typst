@@ -31,7 +31,6 @@ aik2mlj\@gmail.com | #link("https://aik2.site")[aik2.site]
 *Center for Computer Research in Music and Acoustics (CCMRA), Stanford* #h(1fr) Starting in Sept. 2024 \
 Master of Music, Science, and Technology (Admitted, Enrollment Deferred) #h(1fr) Palo Alto, California
 - Potential collaboration with Prof. Julius O. Smith.
-- Granted #link("http://www.ccicf.org.hk/en/scholarships/fellowship_b_04/")[_Chiang Chen Overseas Fellowship_] (only *10 awardees* in Mainland China each year).
 
 *Zhiyuan College, Shanghai Jiao Tong University* #h(1fr) Sept. 2019 -- June 2023 \
 Bachelor of Engineering in Computer Science #h(1fr) Shanghai, China \
@@ -41,7 +40,9 @@ Bachelor of Engineering in Computer Science #h(1fr) Shanghai, China \
 == PUBLICATIONS
 #chiline()
 
-Ziyu Wang, *Lejun Min*, Gus Xia, "Whole-song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models", *Spotlight (top 5%)* in _Proc. 12#super[th] International Conference on Learning Representations (ICLR 2024)_. [#link("https://openreview.net/forum?id=sn7CYWyavh")[OpenReview]]
+Xingwei Qu, Yuelin Bai, Yinghao Ma, Ziya Zhou, Ka Man Lo, Jiaheng Liu, Ruibin Yuan, *Lejun Min*, Xueling Liu, Tianyu Zhang, Xinrun Du, Shuyue Guo, Yiming Liang, Yizhi Li, Shangda Wu, Junting Zhou, Tianyu Zheng, Ziyang Ma, Fengze Han, Wei Xue, Gus Xia, Emmanouil Benetos, Xiang Yue, Chenghua Lin, Xu Tan, Stephen W. Huang, Wenhu Chen, Jie Fu, Ge Zhang, "MuPT: A Generative Symbolic Music Pretrained Transformer", submitted to _Proc. 1#super[st] Conference on Language Modeling (COLM 2024)_. [#link("https://arxiv.org/abs/2404.06393")[arXiv]]
+
+Ziyu Wang, *Lejun Min*, Gus Xia, "Whole-song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models", *Spotlight (top 5%)* in _Proc. 12#super[th] International Conference on Learning Representations (ICLR 2024)_, Vienna, May 2024. [#link("https://openreview.net/forum?id=sn7CYWyavh")[OpenReview]]
 
 *Lejun Min*, Junyan Jiang, Gus Xia, Jingwei Zhao, "Polyffusion: A Diffusion Model for Polyphonic Score Generation with Internal and External Controls", in _Proc. 24#super[th] International Society for Music Information Retrieval Conference (ISMIR 2023)_, Milan, November 2023. [#link("https://arxiv.org/abs/2307.10304")[arXiv]] [#link("https://ismir2023program.ismir.net/poster_51.html")[poster]]
 
@@ -49,8 +50,14 @@ Ziyu Wang, *Lejun Min*, Gus Xia, "Whole-song Hierarchical Generation of Symbolic
 == ACADEMIC EXPERIENCE
 #chiline()
 
-*Controllable Symbolic Music Generation with Diffusion Models* #h(1fr) June 2022 – Present \
-Research Assistant at Machine Learning Department, MBZUAI #h(1fr) Abu Dhabi, UAE
+*Hierarchical Generation and Performance Rendering of Symbolic Music* #h(1fr) Sept. 2023 - Feb. 2024 \
+Research Assistant at MBZUAI #h(1fr) Abu Dhabi, UAE
+- Designed and implemented comprehensive experiments for the hierarchical generation of symbolic music, with a cascaded diffusion model as backend.
+- Experimented on performance rendering for symbolic music using Transformer architecture.
+- Advisor: Prof. Gus Xia.
+
+*Controllable Symbolic Music Generation with Diffusion Models* #h(1fr) June 2022 – Dec. 2022 \
+Research Assistant at MBZUAI #h(1fr) Abu Dhabi, UAE
 - Achieved state-of-the-art polyphonic music generation using diffusion models.
 - Devised two control paradigms for music generation in the diffusion model framework: internal control via masked generation, and external control via cross-attention mechanism.
 - Advisor: Prof. Gus Xia.
