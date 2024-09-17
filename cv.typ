@@ -28,9 +28,9 @@ aik2mlj\@gmail.com | #link("https://aik2.site")[aik2.site]
 == EDUCATION
 #chiline()
 
-*Center for Computer Research in Music and Acoustics (CCMRA), Stanford* #h(1fr) Starting in Sept. 2024 \
-Master of Music, Science, and Technology (Admitted, Enrollment Deferred) #h(1fr) Palo Alto, California
-- Potential collaboration with Prof. Julius O. Smith.
+*Center for Computer Research in Music and Acoustics (CCMRA), Stanford* #h(1fr) Sept. 2024 - Present \
+Master of Music, Science, and Technology #h(1fr) California, United States
+- Advisor: Prof. Julius O. Smith.
 
 *Zhiyuan College, Shanghai Jiao Tong University* #h(1fr) Sept. 2019 -- June 2023 \
 Bachelor of Engineering in Computer Science #h(1fr) Shanghai, China \
@@ -40,7 +40,7 @@ Bachelor of Engineering in Computer Science #h(1fr) Shanghai, China \
 == PUBLICATIONS
 #chiline()
 
-Xingwei Qu, Yuelin Bai, Yinghao Ma, Ziya Zhou, Ka Man Lo, Jiaheng Liu, Ruibin Yuan, *Lejun Min*, Xueling Liu, Tianyu Zhang, Xinrun Du, Shuyue Guo, Yiming Liang, Yizhi Li, Shangda Wu, Junting Zhou, Tianyu Zheng, Ziyang Ma, Fengze Han, Wei Xue, Gus Xia, Emmanouil Benetos, Xiang Yue, Chenghua Lin, Xu Tan, Stephen W. Huang, Wenhu Chen, Jie Fu, Ge Zhang, "MuPT: A Generative Symbolic Music Pretrained Transformer", submitted to _Proc. 1#super[st] Conference on Language Modeling (COLM 2024)_. [#link("https://arxiv.org/abs/2404.06393")[arXiv]]
+// Xingwei Qu, Yuelin Bai, Yinghao Ma, Ziya Zhou, Ka Man Lo, Jiaheng Liu, Ruibin Yuan, *Lejun Min*, Xueling Liu, Tianyu Zhang, Xinrun Du, Shuyue Guo, Yiming Liang, Yizhi Li, Shangda Wu, Junting Zhou, Tianyu Zheng, Ziyang Ma, Fengze Han, Wei Xue, Gus Xia, Emmanouil Benetos, Xiang Yue, Chenghua Lin, Xu Tan, Stephen W. Huang, Wenhu Chen, Jie Fu, Ge Zhang, "MuPT: A Generative Symbolic Music Pretrained Transformer", submitted to _Proc. 1#super[st] Conference on Language Modeling (COLM 2024)_. [#link("https://arxiv.org/abs/2404.06393")[arXiv]]
 
 Ziyu Wang, *Lejun Min*, Gus Xia, "Whole-song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models", *Spotlight (top 5%)* in _Proc. 12#super[th] International Conference on Learning Representations (ICLR 2024)_, Vienna, May 2024. [#link("https://openreview.net/forum?id=sn7CYWyavh")[OpenReview]]
 
@@ -51,13 +51,13 @@ Ziyu Wang, *Lejun Min*, Gus Xia, "Whole-song Hierarchical Generation of Symbolic
 #chiline()
 
 *Hierarchical Generation and Performance Rendering of Symbolic Music* #h(1fr) Sept. 2023 - Feb. 2024 \
-Research Assistant at MBZUAI #h(1fr) Abu Dhabi, UAE
+Research Assistant at MBZUAI #h(1fr) Abu Dhabi, United Arab Emirates
 - Designed and implemented comprehensive experiments for the hierarchical generation of symbolic music, with a cascaded diffusion model as backend.
 - Experimented on performance rendering for symbolic music using Transformer architecture.
 - Advisor: Prof. Gus Xia.
 
 *Controllable Symbolic Music Generation with Diffusion Models* #h(1fr) June 2022 – Dec. 2022 \
-Research Assistant at MBZUAI #h(1fr) Abu Dhabi, UAE
+Research Assistant at MBZUAI #h(1fr) Abu Dhabi, United Arab Emirates
 - Achieved state-of-the-art polyphonic music generation using diffusion models.
 - Devised two control paradigms for music generation in the diffusion model framework: internal control via masked generation, and external control via cross-attention mechanism.
 - Advisor: Prof. Gus Xia.
@@ -110,13 +110,12 @@ Teaching Assistant at SJTU #h(1fr) Shanghai, China
 - Guzheng (the Chinese zither) Performance Level 10 (the highest nonprofessional level in China) qualified.
 - Piano Performance Level 10 qualified.
 - Singing Performance Level 6 qualified.
-- Proficient in electronic music production and mixing.
 - Published an electronic music piece under Chinese Electronic Music (CEM) Records, one of the most prestigious electronic music labels in China.
 
 *Artistic Capacities*
 - Trained on pencil sketching and pastel painting.
 - Well-versed in world literature.
-- Experienced in 3D modeling.
+- Experienced in 3D modeling using Blender.
 
 == LEADERSHIP
 #chiline()
