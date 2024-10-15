@@ -29,12 +29,12 @@ aik2mlj\@gmail.com | #link("https://aik2.site")[aik2.site]
 #chiline()
 
 *Center for Computer Research in Music and Acoustics (CCMRA), Stanford* #h(1fr) Sept. 2024 - Present \
-Master of Art in  Music, Science, and Technology #h(1fr) California, United States
-- Fellowship granted.
+Master of Art in  Music, Science, and Technology (Fellowship) #h(1fr) California, United States
+- Ongoing courses: #link("https://ccrma.stanford.edu/courses/320/info")[Audio Signal Processing], #link("https://ccrma.stanford.edu/courses/256a/")[Music, Computing, Design], #link("https://web.stanford.edu/class/cs329x/")[Human-Centered LLMs].
 - Advisor: Prof. Julius O. Smith, Prof. Takako Fujioka.
 
 *Zhiyuan College, Shanghai Jiao Tong University* #h(1fr) Sept. 2019 -- June 2023 \
-Bachelor of Engineering in Computer Science #h(1fr) Shanghai, China \
+Bachelor of Engineering in Computer Science (Fellowship) #h(1fr) Shanghai, China \
 - Member of *ACM Honor Class*, an elite CS program for *top 5%* talented students.
 - GPA: 88.5 / 100 (*top 10 student*).
 
@@ -69,25 +69,28 @@ Researcher at Music X Lab, New York University, Shanghai #h(1fr) Shanghai, China
 - Applied contrastive learning on the latent space with end-to-end autoencoder training.
 - Advisor: Prof. Gus Xia.
 
-*Approximating Holant problems in 3-regular graphs* #h(1fr) Sept. 2021 – Dec. 2021 \
-Researcher at John Hopcroft Center for Computer Science #h(1fr) Shanghai, China
-- Constructed gadgets for approximation of Holant problems in 3-regular graphs.
-- Applied complexity results from Ising Model to Holant problems by reduction.
-- Advisor: Prof. Chihao Zhang.
+// *Approximating Holant problems in 3-regular graphs* #h(1fr) Sept. 2021 – Dec. 2021 \
+// Researcher at John Hopcroft Center for Computer Science #h(1fr) Shanghai, China
+// - Constructed gadgets for approximation of Holant problems in 3-regular graphs.
+// - Applied complexity results from Ising Model to Holant problems by reduction.
+// - Advisor: Prof. Chihao Zhang.
 
 == TEACHING
 #chiline()
 
+*Reinforcement Learning (CS3316)* #h(1fr) Spring 2023 \
+Teaching Assistant at SJTU #h(1fr) Shanghai, China
+- Designed the final project involving single- or multi-agent learning for simulated hands and legged robot.
+- Lecturer: Prof. Weinan Zhang.
+
 *Design and Analysis of Algorithms (AI2615)* #h(1fr) Spring 2022 \
 Teaching Assistant at SJTU #h(1fr) Shanghai, China
-- Prepared well-written standard answers for class assignments.
-- Graded homework and final exam.
+- Prepared well-written lecture notes and answers for assignments.
 - Lecturer: Prof. Chihao Zhang.
 
 *Principle and Practice of Computer Algorithms (CS1952)* #h(1fr) Summer 2021 \
 Teaching Assistant at SJTU #h(1fr) Shanghai, China
 - Designed a comprehensive ray tracing tutorial written in the Rust language. The #link("https://github.com/aik2mlj/raytracer-tutorial")[repository] received 100+ stars on GitHub.
-- Designed algorithm programming tests for grading.
 - Supervisor: Prof. Yong Yu.
 
 == LANGUAGE PROFICIENCY
@@ -101,18 +104,19 @@ Mandarin Chinese (native), English (fluent), French (beginner) \
 
 *Computer Science Skills*
 - C, C++, Python, Java, Rust, Verilog, Git.
-- Proficient in deep learning coding, strategies and frameworks.
+- Proficient in machine learning coding, strategies and frameworks.
+- Hands-on research experience with music information retrieval and music generation.
 - Experienced in designing compilers, architecture, and computer systems.
-- Well-trained on computer graphics development.
+- Well-trained on computer graphics development and image processing.
 - Linux and open-source software enthusiastic.
-- Experienced in Unity game development and audio plugin development using JUCE framework.
+- Experienced in Unity game development and JUCE audio plugin development.
 
 *Musical Abilities*
 - #link("https://chuck.stanford.edu/")[ChucK] (music programming language) developer.
 - Guzheng (Chinese zither) Performance Level 10 (the highest nonprofessional level in China) qualified.
 - Piano Performance Level 10 qualified.
 - Singing Performance Level 6 qualified.
-- Published an electronic music piece under Chinese Electronic Music (CEM) Records, one of the most prestigious electronic music labels in China.
+- Part-time music producer. Published an electronic music piece under Chinese Electronic Music (CEM) Records, one of the most prestigious electronic music labels in China.
 
 *Artistic Capacities*
 - Trained on pencil sketching and pastel painting.
