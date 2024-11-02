@@ -1,4 +1,5 @@
-#show heading: set text(font: "Linux Biolinum")
+// #show heading: set text(font: "Linux Biolinum")
+#set text(font: ("Libertinus Serif", "LXGW Wenkai"))
 #show link: underline
 
 // Uncomment the following lines to adjust the size of text
@@ -18,6 +19,7 @@
 #set list(indent: 0.8em)
 
 #let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
+#let dotedline() = {v(-3pt); line(length: 100%, stroke: (dash: "dashed")); v(-5pt)}
 
 #set align(center)
 #text(size: 20pt)[*Lejun Min*] \
@@ -93,35 +95,121 @@ Teaching Assistant at SJTU #h(1fr) Shanghai, China
 - Designed a comprehensive ray tracing tutorial written in the Rust language. The #link("https://github.com/aik2mlj/raytracer-tutorial")[repository] received 100+ stars on GitHub.
 - Supervisor: Prof. Yong Yu.
 
+// == SKILLS
+// #chiline()
+//
+// *Computer Science Skills*
+// - C, C++, Python, Java, Rust, Verilog, Git.
+// - Proficient in machine learning coding, strategies and frameworks.
+// - Hands-on research experience with music information retrieval and music generation.
+// - Experienced in designing compilers, architecture, and computer systems.
+// - Well-trained on computer graphics development and image processing.
+// - Linux and open-source software enthusiastic.
+// - Experienced in Unity game development and JUCE audio plugin development.
+//
+// *Musical Abilities*
+// - #link("https://chuck.stanford.edu/")[ChucK] (music programming language) developer.
+// - Guzheng (Chinese zither) Performance Level 10 (the highest nonprofessional level in China) qualified.
+// - Piano Performance Level 10 qualified.
+// - Singing Performance Level 6 qualified.
+// - Part-time music producer. Published an electronic music piece under Chinese Electronic Music (CEM) Records, one of the most prestigious electronic music labels in China.
+//
+// *Artistic Capacities*
+// - Trained on pencil sketching and pastel painting.
+// - Well-versed in world literature. Amateur writer.
+// - Experienced in 3D modeling using Blender.
+
 == LANGUAGE PROFICIENCY
 #chiline()
 Mandarin Chinese (native), English (fluent), French (beginner) \
 *TOEFL*: *112* (Reading *30*, Listening *30*, Speaking *24*, Writing *28*) \
 *GRE*: Verbal *162*, Quantitative *170*, Writing *4.0*
 
-== SKILLS
+== PROGRAMMING PROJECTS
 #chiline()
 
-*Computer Science Skills*
-- C, C++, Python, Java, Rust, Verilog, Git.
-- Proficient in machine learning coding, strategies and frameworks.
-- Hands-on research experience with music information retrieval and music generation.
-- Experienced in designing compilers, architecture, and computer systems.
-- Well-trained on computer graphics development and image processing.
-- Linux and open-source software enthusiastic.
-- Experienced in Unity game development and JUCE audio plugin development.
+More content can be accessed on my #link("https://aik2.site/projects/")[project page].
 
-*Musical Abilities*
-- #link("https://chuck.stanford.edu/")[ChucK] (music programming language) developer.
-- Guzheng (Chinese zither) Performance Level 10 (the highest nonprofessional level in China) qualified.
-- Piano Performance Level 10 qualified.
-- Singing Performance Level 6 qualified.
-- Part-time music producer. Published an electronic music piece under Chinese Electronic Music (CEM) Records, one of the most prestigious electronic music labels in China.
+== Computer Graphics
+#dotedline()
 
-*Artistic Capacities*
-- Trained on pencil sketching and pastel painting.
-- Well-versed in world literature. Amateur writer.
-- Experienced in 3D modeling using Blender.
+#link("https://aik2.site/projects/gigantic-splight/")[*Gigantic Splight*] (_Python_) #h(1fr) June 2022\
+An interactive 3D fluids simulation based on Taichi framework.
+
+#link("https://aik2.site/projects/scotty3d/")[*Scotty3D*] (_C++_) #h(1fr) Mar. 2022\
+A comprehensive CG project including software rastization, interactive mesh editing, realistic path tracing, and dynamic animation.
+
+#link("https://aik2.site/projects/raytracer/")[*Ray Tracer*] (_Rust_) #h(1fr) Aug. 2020\
+A complete ray tracing engine.
+
+
+== Audio Signal Processing
+#dotedline()
+
+#link("https://aik2.site/projects/simple-eq/")[*Simple EQ*] (_C++_) #h(1fr) Jan. 2022\
+A step-by-step JUCE learning project for audio plugin development.
+
+#link("https://aik2.site/projects/Audiobia/")[*Audiobia*] (_Python & Tensorflow_) #h(1fr) May 2021\
+Audio classification using Google’s EfficientNet and Harmonic Percussive Source Separation (HPSS).
+
+== Compiler, Computer Architecture & System
+#dotedline()
+
+#link("https://aik2.site/projects/mx-compiler/")[*Mx Compiler*] (_Java_) #h(1fr) May 2021\
+A completely hand-made compiler for a toy language (Java subset) that surpasses `-o1` optimization.
+
+#link("https://aik2.site/projects/riscv-cpu/")[*RISC-V CPU*] (_Verilog_) #h(1fr) Dec. 2020\
+An emulated 5-pipelined RISCV32I CPU with real-world FPGA implementation.
+
+#link("https://aik2.site/projects/python_interpreter/")[*Python Interpreter*] (_C++_) #h(1fr) Feb. 2020\
+A Python language interpreter.
+
+== Software Development
+#dotedline()
+
+#link("https://aik2.site/projects/ticket-system/")[*Train Ticket System*] (_C++_) #h(1fr) June 2020\
+A cooperated project including backend coding, B+ Tree data structure implementation and frontend website design.
+
+
+== ART PRACTICES
+#chiline()
+
+More content can be accessed on my #link("https://aik2.site/portfolio/")[portfolio page].
+
+== Interface / Narrative Design
+#dotedline()
+
+#link("https://ccrma.stanford.edu/~lejun/256a/hw3/")[*Kandinsky Sonified*] (_#link("https://chuck.stanford.edu/")[ChucK] & #link("https://chuck.stanford.edu/chugl/")[ChuGL]_) #h(1fr) Nov. 2024\
+An interactive audiovisual #link("https://cm-wiki.stanford.edu/wiki/256a-fall-2024/hw3")[music sequencer] that creates and sonifies Kandinsky-like abstract paintings.
+
+#link("https://ccrma.stanford.edu/~lejun/256a/hw2/")[*Fireflies*] (_#link("https://chuck.stanford.edu/")[ChucK] & #link("https://chuck.stanford.edu/chugl/")[ChuGL]_) #h(1fr) Oct. 2024\
+An interactive music therapy journey embodying a firefly. Essentially a #link("https://cm-wiki.stanford.edu/wiki/256a-fall-2024/hw2")[sound peeking] visualization.
+
+== Music
+#dotedline()
+
+#link("https://aik2.site/portfolio/yijiu/")[*忆久 (Memories Last Long)*] #h(1fr) June 2023\
+A song and a music video dedicated to the graduates of 2023, Zhiyuan College.
+
+#link("https://aik2.site/portfolio/should-have-known-better/")[*Should Have Known Better (piano & synth cover) *] #h(1fr) Feb. 2023\
+Piano, synth & singing performance.
+
+#link("https://aik2.site/portfolio/sunset-sea/")[*晼海 (Sunset Sea)*] #h(1fr) Dec. 2021\
+A single published under CEM Records, one of the most prestigious electronic music labels in China.
+
+== Painting
+#dotedline()
+
+#link("https://aik2.site/portfolio/monochrome/")[*Monochrome*] #h(1fr) Oct. 2022\
+Monochromatic drawings on paper and whiteboard.
+
+#link("https://aik2.site/portfolio/2019-pastels/")[*Pastels*] #h(1fr) July 2019\
+Pastel paintings mimicking dull pictures.
+
+// #link("https://aik2.site/portfolio/2017-sketches/")[*Sketches*] #h(1fr) Dec. 2017\
+// Sketches from high school.
+
+
 
 // == LEADERSHIP
 // #chiline()
