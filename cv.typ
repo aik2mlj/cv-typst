@@ -30,7 +30,7 @@ aik2mlj\@gmail.com | #link("https://aik2.site")[aik2.site]
 == EDUCATION
 #chiline()
 
-*Center for Computer Research in Music and Acoustics (CCMRA), Stanford* #h(1fr) Sept. 2024 - Present \
+*Center for Computer Research in Music and Acoustics, Stanford University* #h(1fr) Sept. 2024 - Present \
 Master of Art in  Music, Science, and Technology (Fellowship) #h(1fr) California, United States
 - Ongoing courses: #link("https://ccrma.stanford.edu/courses/320/info")[Audio Signal Processing], #link("https://ccrma.stanford.edu/courses/256a/")[Music, Computing, Design], #link("https://web.stanford.edu/class/cs329x/")[Human-Centered LLMs].
 - Advisor: Prof. Julius O. Smith, Prof. Takako Fujioka.
@@ -50,7 +50,7 @@ Ziyu Wang, *Lejun Min*, Gus Xia, "Whole-song Hierarchical Generation of Symbolic
 *Lejun Min*, Junyan Jiang, Gus Xia, Jingwei Zhao, "Polyffusion: A Diffusion Model for Polyphonic Score Generation with Internal and External Controls", in _Proc. 24#super[th] International Society for Music Information Retrieval Conference (ISMIR 2023)_, Milan, November 2023. [#link("https://arxiv.org/abs/2307.10304")[arXiv]] [#link("https://ismir2023program.ismir.net/poster_51.html")[Poster]] [#link("https://polyffusion.github.io/")[Demo]]
 
 
-== ACADEMIC EXPERIENCE
+== RESEARCH EXPERIENCE
 #chiline()
 
 *Hierarchical Generation and Performance Rendering of Symbolic Music* #h(1fr) Sept. 2023 - Feb. 2024 \
