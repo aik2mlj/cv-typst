@@ -24,7 +24,7 @@
 #set align(center)
 #text(size: 20pt)[*Lejun Min*] \
 Researcher, Artist \
-aik2mlj\@gmail.com | #link("https://aik2.site")[aik2.site]
+lejun\@ccrma.stanford.edu | #link("https://aik2.site")[Webpage] | #link("https://www.linkedin.com/in/lejun-min-1981a5254/")[LinkedIn]
 
 #set align(left)
 == EDUCATION
@@ -65,7 +65,7 @@ Research Assistant at Music X Lab, MBZUAI #h(1fr) Abu Dhabi, United Arab Emirate
 - Devised two control paradigms for music generation in the diffusion model framework: internal control via masked generation, and external control via cross-attention mechanism.
 - Advisor: Prof. Gus Xia.
 
-*Deep Learning on Piano Reduction and Orchestration* #h(1fr) Jan. 2022 – May 2023 \
+*Deep Learning on Piano Reduction and Orchestration* #h(1fr) Jan. 2022 – May 2022 \
 Researcher at Music X Lab, New York University, Shanghai #h(1fr) Shanghai, China
 - Projected piano and orchestral scores to a joint latent space with variational autoencoders.
 - Applied contrastive learning on the latent space with end-to-end autoencoder training.
@@ -87,7 +87,7 @@ Teaching Assistant at SJTU #h(1fr) Shanghai, China
 
 *Design and Analysis of Algorithms (AI2615)* #h(1fr) Spring 2022 \
 Teaching Assistant at SJTU #h(1fr) Shanghai, China
-- Prepared well-written lecture notes and answers for assignments.
+// - Prepared well-written lecture notes and answers for assignments.
 - Lecturer: Prof. Chihao Zhang.
 
 *Principle and Practice of Computer Algorithms (CS1952)* #h(1fr) Summer 2021 \
@@ -125,10 +125,8 @@ Mandarin Chinese (native), English (fluent), French (beginner) \
 *TOEFL*: *112* (Reading *30*, Listening *30*, Speaking *24*, Writing *28*) \
 *GRE*: Verbal *162*, Quantitative *170*, Writing *4.0*
 
-== PROGRAMMING PROJECTS
+== PROGRAMMING PROJECTS #footnote[More content can be accessed on my #link("https://aik2.site/projects/")[project page].]
 #chiline()
-
-More content can be accessed on my #link("https://aik2.site/projects/")[project page].
 
 == Computer Graphics
 #dotedline()
@@ -171,10 +169,10 @@ A Python language interpreter.
 A cooperated project including backend coding, B+ Tree data structure implementation and frontend website design.
 
 
-== ART PRACTICES
+== ART PRACTICES #footnote[More content can be accessed on my #link("https://aik2.site/portfolio/")[portfolio page].]
 #chiline()
 
-More content can be accessed on my #link("https://aik2.site/portfolio/")[portfolio page].
+
 
 == Interface / Narrative Design
 #dotedline()
