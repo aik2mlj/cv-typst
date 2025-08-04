@@ -5,9 +5,7 @@
 
 // Uncomment the following lines to adjust the size of text
 // The recommend resume text size is from `10pt` to `12pt`
-#set text(
-  size: 12pt,
-)
+#set text(size: 12pt)
 
 // Feel free to change the margin below to best fit your own CV
 #set page(
@@ -20,8 +18,16 @@
 #set par(justify: true, leading: 0.7em)
 #set list(indent: 0.8em)
 
-#let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
-#let dotedline() = {v(-3pt); line(length: 100%, stroke: (dash: "dashed")); v(-5pt)}
+#let chiline() = {
+  v(-3pt)
+  line(length: 100%)
+  v(-5pt)
+}
+#let dotedline() = {
+  v(-3pt)
+  line(length: 100%, stroke: (dash: "dashed"))
+  v(-5pt)
+}
 
 #set align(center)
 #text(size: 20pt)[*Lejun Min*] \
@@ -33,8 +39,8 @@ lejun\@ccrma.stanford.edu | #link("https://aik2.site")[Webpage] | #link("https:/
 #chiline()
 
 *Center for Computer Research in Music and Acoustics, Stanford University* #h(1fr) Sept. 2024 -- Present \
-Master of Art in  Music, Science, and Technology (Fellowship) #h(1fr) California, United States
-- Ongoing courses: #link("https://ccrma.stanford.edu/courses/320/info")[Audio Signal Processing], #link("https://ccrma.stanford.edu/courses/256a/")[Music, Computing, Design], #link("https://web.stanford.edu/class/cs329x/")[Human-Centered LLMs].
+Master of Art in Music, Science, and Technology (Fellowship) #h(1fr) California, United States
+- GPA: 4.0.
 - Advisor: Prof. Julius O. Smith, Prof. Takako Fujioka.
 
 *ACM Honor Class, Shanghai Jiao Tong University* #h(1fr) Sept. 2019 -- June 2023 \
@@ -45,7 +51,7 @@ Bachelor of Engineering in Computer Science (Fellowship) #h(1fr) Shanghai, China
 == PUBLICATIONS
 #chiline()
 
-X. Qu, Y. Bai, Y. Ma, Z. Zhou, K. Lo, J. Liu, R. Yuan, *L. Min*, X. Liu, T. Zhang, X. Du, S. Guo, Y. Liang, Y. Li, S. Wu, J. Zhou, T. Zheng, Z. Ma, F. Han, W. Xue, G. Xia, E. Benetos, X. Yue, C. Lin, X. Tan, S. Huang, W. Chen, J. Fu, G. Zhang, "MuPT: A Generative Symbolic Music Pretrained Transformer", submitted to _Proc. 13#super[th] International Conference on Learning Representations (ICLR 2025)_. [#link("https://arxiv.org/abs/2404.06393")[arXiv]] [#link("https://openreview.net/forum?id=iAK9oHp4Zz")[OpenReview]] [#link("https://map-mupt.github.io/")[Demo]]
+X. Qu, Y. Bai, Y. Ma, Z. Zhou, K. Lo, J. Liu, R. Yuan, *L. Min*, X. Liu, T. Zhang, X. Du, S. Guo, Y. Liang, Y. Li, S. Wu, J. Zhou, T. Zheng, Z. Ma, F. Han, W. Xue, G. Xia, E. Benetos, X. Yue, C. Lin, X. Tan, S. Huang, W. Chen, J. Fu, G. Zhang, "MuPT: A Generative Symbolic Music Pretrained Transformer", in _Proc. 13#super[th] International Conference on Learning Representations (ICLR 2025)_. [#link("https://arxiv.org/abs/2404.06393")[arXiv]] [#link("https://openreview.net/forum?id=iAK9oHp4Zz")[OpenReview]] [#link("https://map-mupt.github.io/")[Demo]]
 
 Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models", *Spotlight (top 5%)* in _Proc. 12#super[th] International Conference on Learning Representations (ICLR 2024)_, Vienna, May 2024. [#link("https://arxiv.org/abs/2405.09901")[arXiv]] [#link("https://openreview.net/forum?id=sn7CYWyavh")[OpenReview]] [#link("https://wholesonggen.github.io/")[Demo]]
 
@@ -54,6 +60,11 @@ Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music
 
 == RESEARCH EXPERIENCE
 #chiline()
+*Automatic Mixing with Audio Representation Learning and Generation* #h(1fr) June 2025 - Sept. 2025 \
+Research Intern at Sony CSL Paris #h(1fr) Paris, France \
+- Achieved end-to-end audio mixing with a two-stage paradigm: mix-invariant representation learning, and latent audio generation. This is one of the pioneer works on this topic.
+- Experimented adding different schemes of self-supervision to the representation learning stage.
+- Advisor: Dr. Stefan Lattner.
 
 *Hierarchical Generation and Performance Rendering of Symbolic Music* #h(1fr) Sept. 2023 -- Feb. 2024 \
 Research Assistant at Music X Lab, MBZUAI #h(1fr) Abu Dhabi, United Arab Emirates
@@ -156,7 +167,11 @@ A cooperated project including backend coding, B+ Tree data structure implementa
 == ART PRACTICES
 #chiline()
 
+== Live Performance & New Media Art
+#dotedline()
 
+#link("https://aik2.site/portfolio/a-chan-conversation/")[*A Chan Conversation*] #h(1fr) May 2025\
+A sonic conversation with an ancient Chan Buddhist monk. A Live performance that explores spatialized sound perception with Ambisonics. Performed on CCRMA Open House Concert 2025.
 
 == Interface / Narrative Design
 #dotedline()
