@@ -62,8 +62,8 @@ Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music
 #chiline()
 *Automatic Mixing with Audio Representation Learning and Generation* #h(1fr) June 2025 - Sept. 2025 \
 Research Intern at Sony CSL Paris #h(1fr) Paris, France \
-- Achieved end-to-end audio mixing with a two-stage paradigm: mix-invariant representation learning, and latent audio generation. This is one of the pioneer works on this topic.
-- Experimented adding different schemes of self-supervision to the representation learning stage.
+- Designed an end-to-end (re-)mixing and mastering system using audio representation learning and generation. This is one of the pioneer works on automatic mixing with a fully generative approach.
+// - Experimented adding different schemes of self-supervision to the representation learning stage.
 - Advisor: Dr. Stefan Lattner.
 
 *Hierarchical Generation and Performance Rendering of Symbolic Music* #h(1fr) Sept. 2023 -- Feb. 2024 \
