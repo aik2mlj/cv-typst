@@ -51,11 +51,13 @@ Bachelor of Engineering in Computer Science (Fellowship) #h(1fr) Shanghai, China
 == PUBLICATIONS
 #chiline()
 
-X. Qu, Y. Bai, Y. Ma, Z. Zhou, K. Lo, J. Liu, R. Yuan, *L. Min*, X. Liu, T. Zhang, X. Du, S. Guo, Y. Liang, Y. Li, S. Wu, J. Zhou, T. Zheng, Z. Ma, F. Han, W. Xue, G. Xia, E. Benetos, X. Yue, C. Lin, X. Tan, S. Huang, W. Chen, J. Fu, G. Zhang, "MuPT: A Generative Symbolic Music Pretrained Transformer", in _Proc. 13#super[th] International Conference on Learning Representations (ICLR 2025)_. [#link("https://arxiv.org/abs/2404.06393")[arXiv]] [#link("https://openreview.net/forum?id=iAK9oHp4Zz")[OpenReview]] [#link("https://map-mupt.github.io/")[Demo]]
+*L. Min*, S. Chen, M. Bosi, "Leveraging Rotational M/S Coding and Machine Learning in Stereo Audio Coding", in _International Workshop on Sound Signal Processing Applications (IWSSPA 2025)_, Costa Ballena, Spain, July 2025. [#link("https://sites.google.com/view/iwsspa-2025/programme")[Program]]
 
-Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models", *Spotlight (top 5%)* in _Proc. 12#super[th] International Conference on Learning Representations (ICLR 2024)_, Vienna, May 2024. [#link("https://arxiv.org/abs/2405.09901")[arXiv]] [#link("https://openreview.net/forum?id=sn7CYWyavh")[OpenReview]] [#link("https://wholesonggen.github.io/")[Demo]]
+X. Qu, Y. Bai, Y. Ma, Z. Zhou, K. Lo, J. Liu, R. Yuan, *L. Min*, X. Liu, T. Zhang, X. Du, S. Guo, Y. Liang, Y. Li, S. Wu, J. Zhou, T. Zheng, Z. Ma, F. Han, W. Xue, G. Xia, E. Benetos, X. Yue, C. Lin, X. Tan, S. Huang, W. Chen, J. Fu, G. Zhang, "MuPT: A Generative Symbolic Music Pretrained Transformer", in _Proc. 13#super[th] International Conference on Learning Representations (ICLR 2025)_, Singapore, April 2025. [#link("https://arxiv.org/abs/2404.06393")[arXiv]] [#link("https://openreview.net/forum?id=iAK9oHp4Zz")[OpenReview]] [#link("https://map-mupt.github.io/")[Demo]]
 
-*L. Min*, J. Jiang, G. Xia, J. Zhao, "Polyffusion: A Diffusion Model for Polyphonic Score Generation with Internal and External Controls", in _Proc. 24#super[th] International Society for Music Information Retrieval Conference (ISMIR 2023)_, Milan, November 2023. [#link("https://arxiv.org/abs/2307.10304")[arXiv]] [#link("https://ismir2023program.ismir.net/poster_51.html")[Poster]] [#link("https://polyffusion.github.io/")[Demo]]
+Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models", *Spotlight (top 5%)* in _Proc. 12#super[th] International Conference on Learning Representations (ICLR 2024)_, Vienna, Austria, May 2024. [#link("https://arxiv.org/abs/2405.09901")[arXiv]] [#link("https://openreview.net/forum?id=sn7CYWyavh")[OpenReview]] [#link("https://wholesonggen.github.io/")[Demo]]
+
+*L. Min*, J. Jiang, G. Xia, J. Zhao, "Polyffusion: A Diffusion Model for Polyphonic Score Generation with Internal and External Controls", in _Proc. 24#super[th] International Society for Music Information Retrieval Conference (ISMIR 2023)_, Milan, Italy, November 2023. [#link("https://arxiv.org/abs/2307.10304")[arXiv]] [#link("https://ismir2023program.ismir.net/poster_51.html")[Poster]] [#link("https://polyffusion.github.io/")[Demo]]
 
 
 == RESEARCH EXPERIENCE
