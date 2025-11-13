@@ -166,8 +166,11 @@ A cooperated project including backend coding, B+ Tree data structure implementa
 == ART PRACTICES
 #chiline()
 
-== Live Performance & New Media Art
+== Live Performance & Intermedia Art
 #dotedline()
+
+#link("https://aik2.site/portfolio/sonic-skateboard/")[*Sonic Skateboard*] (_Arduino & #link("https://chuck.stanford.edu/")[ChucK]_) #h(1fr) June 2025\
+Turn my skateboard into a musical instrument.
 
 #link("https://aik2.site/portfolio/a-chan-conversation/")[*A Chan Conversation*] #h(1fr) May 2025\
 A sonic conversation with an ancient Chan Buddhist monk. A Live performance that explores spatialized sound perception with Ambisonics. Performed on CCRMA Open House Concert 2025.
