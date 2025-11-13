@@ -40,7 +40,7 @@ lejun\@ccrma.stanford.edu | #link("https://aik2.site")[Webpage] | #link("https:/
 
 *Center for Computer Research in Music and Acoustics, Stanford University* #h(1fr) Sept. 2024 -- Present \
 Master of Art in Music, Science, and Technology (Fellowship) #h(1fr) California, United States
-- GPA: 4.0.
+- GPA: 4.0 / 4.0.
 - Advisor: Prof. Julius O. Smith, Prof. Takako Fujioka.
 
 *ACM Honor Class, Shanghai Jiao Tong University* #h(1fr) Sept. 2019 -- June 2023 \
@@ -62,28 +62,31 @@ Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music
 
 == RESEARCH EXPERIENCE
 #chiline()
+*Music-text Joint Embedding* #h(1fr) Oct. 2025 -- Present \
+Research Intern at #link("https://www.smule.com/")[Smule] AI Lab #h(1fr) Remote \
+- Building the next-generation music-text joint embedding.
+- Advisor: Yongyi Zang.
+
 *Automatic Mixing with Audio Representation Learning and Generation* #h(1fr) June 2025 - Sept. 2025 \
-Research Intern at Sony CSL Paris #h(1fr) Paris, France \
+Research Intern at #link("https://cslmusicteam.sony.fr/")[Music Team] of #link("https://csl.sony.fr/")[Sony CSL Paris] #h(1fr) Paris, France \
 - Designed an end-to-end (re-)mixing and mastering system using audio representation learning and generation. This is one of the pioneer works on automatic mixing with a fully generative approach.
 // - Experimented adding different schemes of self-supervision to the representation learning stage.
 - Advisor: Dr. Stefan Lattner.
 
 *Hierarchical Generation and Performance Rendering of Symbolic Music* #h(1fr) Sept. 2023 -- Feb. 2024 \
-Research Assistant at Music X Lab, MBZUAI #h(1fr) Abu Dhabi, United Arab Emirates
-- Designed and implemented comprehensive experiments for the hierarchical generation of symbolic music, with a cascaded diffusion model as backend.
-- Experimented on performance rendering for symbolic music using Transformer architecture.
+Research Assistant at #link("https://www.musicxlab.com/")[Music X Lab], MBZUAI #h(1fr) Abu Dhabi, United Arab Emirates
+- Designed and implemented comprehensive experiments for the hierarchical generation of symbolic music, with a cascaded diffusion model as backend. Work published at ICLR 2024.
+// - Experimented on performance rendering for symbolic music using Transformer architecture.
 - Advisor: Prof. Gus Xia.
 
 *Controllable Symbolic Music Generation with Diffusion Models* #h(1fr) June 2022 -- Dec. 2022 \
-Research Assistant at Music X Lab, MBZUAI #h(1fr) Abu Dhabi, United Arab Emirates
-- Achieved state-of-the-art polyphonic music generation using diffusion models.
-- Devised two control paradigms for music generation in the diffusion model framework: internal control via masked generation, and external control via cross-attention mechanism.
+Research Assistant at #link("https://www.musicxlab.com/")[Music X Lab], MBZUAI #h(1fr) Abu Dhabi, United Arab Emirates
+- Achieved state-of-the-art polyphonic music generation using diffusion models, with two novel control paradigms: internal control via masked generation, and external control via cross-attention mechanism. Work published at ISMIR 2023.
 - Advisor: Prof. Gus Xia.
 
 *Deep Learning on Piano Reduction and Orchestration* #h(1fr) Jan. 2022 -- May 2022 \
-Researcher at Music X Lab, New York University, Shanghai #h(1fr) Shanghai, China
-- Projected piano and orchestral scores to a joint latent space with variational autoencoders.
-- Applied contrastive learning on the latent space with end-to-end autoencoder training.
+Researcher at #link("https://www.musicxlab.com/")[Music X Lab], New York University, Shanghai #h(1fr) Shanghai, China
+- Projected piano and orchestral scores to a joint latent space with variational autoencoders, and applied contrastive learning on the latent space with end-to-end autoencoder training.
 - Advisor: Prof. Gus Xia.
 
 // *Approximating Holant problems in 3-regular graphs* #h(1fr) Sept. 2021 – Dec. 2021 \
@@ -115,12 +118,6 @@ Researcher at Music X Lab, New York University, Shanghai #h(1fr) Shanghai, China
 // - Trained on pencil sketching and pastel painting.
 // - Well-versed in world literature. Amateur writer.
 // - Experienced in 3D modeling using Blender.
-
-== LANGUAGE PROFICIENCY
-#chiline()
-Mandarin Chinese (native), English (fluent), French (beginner) \
-*TOEFL*: *112* (Reading *30*, Listening *30*, Speaking *24*, Writing *28*) \
-*GRE*: Verbal *162*, Quantitative *170*, Writing *4.0*
 
 == PROGRAMMING PROJECTS
 #chiline()
@@ -213,6 +210,12 @@ Teaching Assistant at SJTU #h(1fr) Shanghai, China
 Teaching Assistant at SJTU #h(1fr) Shanghai, China
 - Designed a comprehensive ray tracing tutorial written in the Rust language. The #link("https://github.com/aik2mlj/raytracer-tutorial")[repository] received 100+ stars on GitHub.
 - Supervisor: Prof. Yong Yu.
+
+== LANGUAGE PROFICIENCY
+#chiline()
+Mandarin Chinese (native), English (fluent), French (beginner) \
+*TOEFL*: *112* (Reading *30*, Listening *30*, Speaking *24*, Writing *28*) \
+*GRE*: Verbal *162*, Quantitative *170*, Writing *4.0*
 
 // == Painting
 // #dotedline()
