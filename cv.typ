@@ -46,7 +46,7 @@ Master of Art in Music, Science, and Technology (Fellowship) #h(1fr) California,
 *ACM Honor Class, Shanghai Jiao Tong University* #h(1fr) Sept. 2019 -- June 2023 \
 Bachelor of Engineering in Computer Science (Fellowship) #h(1fr) Shanghai, China \
 - An elite CS program for *top 5%* students.
-- GPA: 88.5/100 (ranking: 6/30).
+- GPA: 89/100 (ranking: 5/27).
 
 == PUBLICATIONS
 #chiline()
