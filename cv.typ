@@ -1,7 +1,17 @@
 // #show heading: set text(font: "Linux Biolinum")
 // #show heading.where(level: 3): set text(size: 15pt)
-#set text(font: ("Libertinus Serif", "LXGW Wenkai"))
-#show link: underline
+// #set text(font: ("Libertinus Serif", "LXGW Wenkai"))
+#set text(
+  font: (
+    (name: "Libertinus Serif", covers: "latin-in-cjk"),
+    "LXGW WenKai",
+    // "Noto Serif CJK SC",
+  ),
+  lang: "zh",
+)
+#show link: it => [#underline(offset: 0.15em, stroke: (thickness: 0.4pt))[#it]]
+
+// #show link: underline
 
 // Uncomment the following lines to adjust the size of text
 // The recommend resume text size is from `10pt` to `12pt`
@@ -39,7 +49,7 @@ lejun\@ccrma.stanford.edu | #link("https://aik2.site")[Webpage] | #link("https:/
 #chiline()
 
 *Center for Computer Research in Music and Acoustics, Stanford University* #h(1fr) Sept. 2024 -- Present \
-Master of Art in Music, Science, and Technology (Fellowship) #h(1fr) California, United States
+Master of Arts in Music, Science, and Technology (Fellowship) #h(1fr) California, United States
 - GPA: 4.0 / 4.0.
 - Advisor: Prof. Julius O. Smith, Prof. Takako Fujioka.
 
@@ -62,30 +72,25 @@ Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music
 
 == RESEARCH EXPERIENCE
 #chiline()
-*Music-text Joint Embedding* #h(1fr) Oct. 2025 -- Present \
-Research Intern at #link("https://www.smule.com/")[Smule] AI Lab #h(1fr) Remote \
-- Building the next-generation music-text joint embedding.
+*#link("https://www.smule.com/")[Smule] AI Lab*, Research Intern #h(1fr) Oct. 2025 -- Present
+- Building a music-text joint embedding that addresses the modality gap of contrastive learning.
 - Advisor: Yongyi Zang.
 
-*Automatic Mixing with Audio Representation Learning and Generation* #h(1fr) June 2025 - Sept. 2025 \
-Research Intern at #link("https://cslmusicteam.sony.fr/")[Music Team] of #link("https://csl.sony.fr/")[Sony CSL Paris] #h(1fr) Paris, France \
+#link("https://csl.sony.fr/")[*Sony Computer Science Laboratories - Paris*], Research Intern #h(1fr) June 2025 - Sept. 2025
 - Designed an end-to-end (re-)mixing and mastering system using audio representation learning and generation. This is one of the pioneer works on automatic mixing with a fully generative approach.
 // - Experimented adding different schemes of self-supervision to the representation learning stage.
 - Advisor: Dr. Stefan Lattner.
 
-*Hierarchical Generation and Performance Rendering of Symbolic Music* #h(1fr) Sept. 2023 -- Feb. 2024 \
-Research Assistant at #link("https://www.musicxlab.com/")[Music X Lab], MBZUAI #h(1fr) Abu Dhabi, United Arab Emirates
+*#link("https://www.musicxlab.com/")[Music X Lab], MBZUAI*, Research Assistant #h(1fr) Sept. 2023 -- Feb. 2024
 - Designed and implemented comprehensive experiments for the hierarchical generation of symbolic music, with a cascaded diffusion model as backend. Work published at ICLR 2024.
 // - Experimented on performance rendering for symbolic music using Transformer architecture.
 - Advisor: Prof. Gus Xia.
 
-*Controllable Symbolic Music Generation with Diffusion Models* #h(1fr) June 2022 -- Dec. 2022 \
-Research Assistant at #link("https://www.musicxlab.com/")[Music X Lab], MBZUAI #h(1fr) Abu Dhabi, United Arab Emirates
+*#link("https://www.musicxlab.com/")[Music X Lab], MBZUAI*, Research Assistant #h(1fr) June 2022 -- Dec. 2022 \
 - Achieved state-of-the-art polyphonic music generation using diffusion models, with two novel control paradigms: internal control via masked generation, and external control via cross-attention mechanism. Work published at ISMIR 2023.
 - Advisor: Prof. Gus Xia.
 
-*Deep Learning on Piano Reduction and Orchestration* #h(1fr) Jan. 2022 -- May 2022 \
-Researcher at #link("https://www.musicxlab.com/")[Music X Lab], New York University, Shanghai #h(1fr) Shanghai, China
+*#link("https://www.musicxlab.com/")[Music X Lab], NYU Shanghai*, Undergraduate Researcher #h(1fr) Jan. 2022 -- May 2022 \
 - Projected piano and orchestral scores to a joint latent space with variational autoencoders, and applied contrastive learning on the latent space with end-to-end autoencoder training.
 - Advisor: Prof. Gus Xia.
 
@@ -119,6 +124,22 @@ Researcher at #link("https://www.musicxlab.com/")[Music X Lab], New York Univers
 // - Well-versed in world literature. Amateur writer.
 // - Experienced in 3D modeling using Blender.
 
+== TEACHING
+#chiline()
+
+*Reinforcement Learning (CS3316)*, Teaching Assistant at SJTU #h(1fr) Spring 2023
+- Designed a final project that involves single- or multi-agent learning for simulated hands and legged robot.
+- Lecturer: Prof. Weinan Zhang.
+
+*Design and Analysis of Algorithms (AI2615)*, Teaching Assistant at SJTU #h(1fr) Spring 2022
+- Prepared well-written lecture notes and answers for assignments.
+- Lecturer: Prof. Chihao Zhang.
+
+*Principle and Practice of Computer Algorithms (CS1952)*, Teaching Assistant at SJTU #h(1fr) Summer 2021
+- Designed a comprehensive ray tracing tutorial written in the Rust language. The #link("https://github.com/aik2mlj/raytracer-tutorial")[repository] received 100+ stars on GitHub.
+- Lecturer: Prof. Yong Yu.
+
+
 == PROGRAMMING PROJECTS
 #chiline()
 
@@ -129,22 +150,22 @@ Researcher at #link("https://www.musicxlab.com/")[Music X Lab], New York Univers
 An interactive 3D fluids simulation based on Taichi framework.
 
 #link("https://aik2.site/projects/scotty3d/")[*Scotty3D*] (_C++_) #h(1fr) Mar. 2022\
-A comprehensive CG project including software rastization, interactive mesh editing, realistic path tracing, and dynamic animation.
+A comprehensive CG project including software rastization, interactive mesh editing, path tracing, and dynamic animation.
 
 #link("https://aik2.site/projects/raytracer/")[*Ray Tracer*] (_Rust_) #h(1fr) Aug. 2020\
-A complete ray tracing engine.
+A complete ray tracing engine in Rust.
 
 
-== Audio Signal Processing
-#dotedline()
+// == Audio Signal Processing
+// #dotedline()
+//
+// #link("https://aik2.site/projects/simple-eq/")[*Simple EQ*] (_C++_) #h(1fr) Jan. 2022\
+// A step-by-step JUCE learning project for audio plugin development.
+//
+// #link("https://aik2.site/projects/Audiobia/")[*Audiobia*] (_Python & Tensorflow_) #h(1fr) May 2021\
+// Audio classification using Google’s EfficientNet and Harmonic Percussive Source Separation (HPSS).
 
-#link("https://aik2.site/projects/simple-eq/")[*Simple EQ*] (_C++_) #h(1fr) Jan. 2022\
-A step-by-step JUCE learning project for audio plugin development.
-
-#link("https://aik2.site/projects/Audiobia/")[*Audiobia*] (_Python & Tensorflow_) #h(1fr) May 2021\
-Audio classification using Google’s EfficientNet and Harmonic Percussive Source Separation (HPSS).
-
-== Compiler, Computer Architecture & System
+== Compiler & Computer Architecture
 #dotedline()
 
 #link("https://aik2.site/projects/mx-compiler/")[*Mx Compiler*] (_Java_) #h(1fr) May 2021\
@@ -156,7 +177,7 @@ An emulated 5-pipelined RISCV32I CPU with real-world FPGA implementation.
 #link("https://aik2.site/projects/python_interpreter/")[*Python Interpreter*] (_C++_) #h(1fr) Feb. 2020\
 A Python language interpreter.
 
-== Software Development
+== Algorithm & Data Structure
 #dotedline()
 
 #link("https://aik2.site/projects/ticket-system/")[*Train Ticket System*] (_C++_) #h(1fr) June 2020\
@@ -169,14 +190,26 @@ A cooperated project including backend coding, B+ Tree data structure implementa
 == Live Performance & Intermedia Art
 #dotedline()
 
+#link("https://aik2.site/portfolio/dream-sound-poetry/")[*Sound Poetry*], _for 2-channel audio & vocalists_  #h(1fr) Dec. 2025\
+A musique concrète sound poem about dream, and a mandarin (grape) fugue.
+
+#link("https://aik2.site/portfolio/umbrella-intermedia/")[*Umbrella*], _for Ambisonics audio & video_ #h(1fr) Dec. 2025\
+An intermedia piece exploring the nature of self and fear.
+
+#link("https://aik2.site/portfolio/interplanetary-concert-performance/")[*Interplanetary Concert*], _for 2-channel audio, video, & live performer_ #h(1fr) Oct. 2025\
+Breaking the fourth wall with the interplanetary teleportation system.
+
+#link("https://aik2.site/portfolio/a-chan-conversation/")[*A Chan Conversation*], _for Ambisonics audio, Gametrak, & live performer_ #h(1fr) May 2025\
+A sonic conversation with an ancient Chan Buddhist monk. Performed on #link("https://ccrma.stanford.edu/ccrma-open-house-2025")[CCRMA Open House Concert 2025].
+
+== Interface & Interactive Design
+#dotedline()
+
 #link("https://aik2.site/portfolio/sonic-skateboard/")[*Sonic Skateboard*] (_Arduino & #link("https://chuck.stanford.edu/")[ChucK]_) #h(1fr) June 2025\
 Turn my skateboard into a musical instrument.
 
-#link("https://aik2.site/portfolio/a-chan-conversation/")[*A Chan Conversation*] #h(1fr) May 2025\
-A sonic conversation with an ancient Chan Buddhist monk. A Live performance that explores spatialized sound perception with Ambisonics. Performed on CCRMA Open House Concert 2025.
-
-== Interface / Narrative Design
-#dotedline()
+#link("https://aik2.site/portfolio/blackhole/")[*Talking to A Black Hole*] (_#link("https://chuck.stanford.edu/")[ChucK] & #link("https://chuck.stanford.edu/chugl/")[ChuGL]_ & _#link("https://www.w3.org/TR/WGSL/")[WGSL]_) #h(1fr) Dec. 2024\
+Let the noise guide you through the event horizon of a lonely black hole.
 
 #link("https://aik2.site/portfolio/kandinsky-sonified/")[*Kandinsky Sonified*] (_#link("https://chuck.stanford.edu/")[ChucK] & #link("https://chuck.stanford.edu/chugl/")[ChuGL]_) #h(1fr) Nov. 2024\
 An interactive audiovisual #link("https://cm-wiki.stanford.edu/wiki/256a-fall-2024/hw3")[music sequencer] that creates and sonifies Kandinsky-like abstract paintings.
@@ -184,35 +217,20 @@ An interactive audiovisual #link("https://cm-wiki.stanford.edu/wiki/256a-fall-20
 #link("https://aik2.site/portfolio/fireflies/")[*Fireflies*] (_#link("https://chuck.stanford.edu/")[ChucK] & #link("https://chuck.stanford.edu/chugl/")[ChuGL]_) #h(1fr) Oct. 2024\
 An interactive music therapy journey embodying a firefly. Essentially a #link("https://cm-wiki.stanford.edu/wiki/256a-fall-2024/hw2")[sound peeking] visualization.
 
-== Music
+== Music & Sound Art
 #dotedline()
 
+#link("https://aik2.site/portfolio/backrooms/")[*The Backrooms: Audio Drama*], _for binaural audio_ #h(1fr) Dec. 2024\
+The protagonist "no-clipped" into a weird space where he heard things beyond his comprehension.
+
 #link("https://aik2.site/portfolio/yijiu/")[*忆久 (Memories Last Long)*] #h(1fr) June 2023\
-A song and a music video dedicated to the graduates of 2023, Zhiyuan College.
+A song and a music video dedicated to the Zhiyuan College graduates of 2023.
 
 #link("https://aik2.site/portfolio/should-have-known-better/")[*Should Have Known Better (piano & synth cover) *] #h(1fr) Feb. 2023\
-Piano, synth & singing performance.
+Piano, synth, & singing recording.
 
 #link("https://aik2.site/portfolio/sunset-sea/")[*晼海 (Sunset Sea)*] #h(1fr) Dec. 2021\
-A single published under CEM Records, one of the most prestigious electronic music labels in China.
-
-== TEACHING
-#chiline()
-
-*Reinforcement Learning (CS3316)* #h(1fr) Spring 2023 \
-Teaching Assistant at SJTU #h(1fr) Shanghai, China
-- Designed the final project involving single- or multi-agent learning for simulated hands and legged robot.
-- Lecturer: Prof. Weinan Zhang.
-
-*Design and Analysis of Algorithms (AI2615)* #h(1fr) Spring 2022 \
-Teaching Assistant at SJTU #h(1fr) Shanghai, China
-// - Prepared well-written lecture notes and answers for assignments.
-- Lecturer: Prof. Chihao Zhang.
-
-*Principle and Practice of Computer Algorithms (CS1952)* #h(1fr) Summer 2021 \
-Teaching Assistant at SJTU #h(1fr) Shanghai, China
-- Designed a comprehensive ray tracing tutorial written in the Rust language. The #link("https://github.com/aik2mlj/raytracer-tutorial")[repository] received 100+ stars on GitHub.
-- Supervisor: Prof. Yong Yu.
+A single published under #link("http://www.cemofficial.com/")[CEM Records].
 
 == LANGUAGE PROFICIENCY
 #chiline()
