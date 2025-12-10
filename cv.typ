@@ -15,11 +15,12 @@
 
 // Uncomment the following lines to adjust the size of text
 // The recommend resume text size is from `10pt` to `12pt`
-#set text(size: 12pt)
+#set text(size: 11.5pt)
+// #set text(size: 12pt)
 
 // Feel free to change the margin below to best fit your own CV
 #set page(
-  margin: (x: 1cm, y: 1.3cm),
+  margin: (x: 1.2cm, y: 1.3cm),
   // numbering: "1",
 )
 
@@ -51,7 +52,7 @@ lejun\@ccrma.stanford.edu | #link("https://aik2.site")[Webpage] | #link("https:/
 *Center for Computer Research in Music and Acoustics, Stanford University* #h(1fr) Sept. 2024 -- Present \
 Master of Arts in Music, Science, and Technology (Fellowship) #h(1fr) California, United States
 - GPA: 4.0 / 4.0.
-- Advisor: Prof. Julius O. Smith, Prof. Takako Fujioka.
+- Advisor: Prof. Julius O. Smith III, Prof. Takako Fujioka.
 
 *ACM Honor Class, Shanghai Jiao Tong University* #h(1fr) Sept. 2019 -- June 2023 \
 Bachelor of Engineering in Computer Science (Fellowship) #h(1fr) Shanghai, China \
@@ -230,7 +231,35 @@ A song and a music video dedicated to the Zhiyuan College graduates of 2023.
 Piano, synth, & singing recording.
 
 #link("https://aik2.site/portfolio/sunset-sea/")[*晼海 (Sunset Sea)*] #h(1fr) Dec. 2021\
-A single published under #link("http://www.cemofficial.com/")[CEM Records].
+An electronic music piece published under #link("http://www.cemofficial.com/")[CEM Records].
+
+== AWARDS & HONORS
+#chiline()
+*CCRMA Flagship Project Funding* #h(1fr) Feb. 2025\
+*Chiang Chen Overseas Graduate Fellowship* (one of 10 awardees in Mainland China) #h(1fr) Jan. 2025\
+*CCRMA Fellowship*#h(1fr) Sept. 2024 \
+*SJTU Outstanding Bachelor’s Thesis* (one of 41 awardees out of 3873 graduates in 2023) #h(1fr) June 2023\
+*Longhu Scholarship* (top 5% in Zhiyuan College) #h(1fr) Apr. 2023\
+*SJTU Student of Merit* (one awardee in each major) #h(1fr) Dec. 2021\
+*Member of ACM Honor Class* (top 5% in Computer Science) #h(1fr) 2019 - 2023\
+*Zhiyuan Honorary Scholarship* #h(1fr) 2019 - 2023\
+
+
+== SKILLS
+#chiline()
+
+#set terms(hanging-indent: 13.5em, indent: 0em)
+/ #box(width: 13em)[Programming Languages]: C++, C, Python, Java, Rust, Verilog, Lua, Arduino, WGSL, Bash, LaTeX, Typst
+/ #box(
+    width: 13em,
+  )[Development Environment]: Arch Linux (main OS), Neovim (main editor), Ubuntu, VSCode, Git, Docker, uv
+/ #box(width: 13em)[Machine Learning]: PyTorch, TensorFlow, Accelerate, Lightning
+/ #box(
+    width: 13em,
+  )[Audio & Graphics Software]: JUCE, ChucK, Reaper, Adobe Audition, FL Studio, Pure Data, Audacity, Blender, Adobe Premiere, Kdenlive, Krita
+/ #box(
+    width: 13em,
+  )[Technical Specialties]: Deep Learning, Music Generation, Music Information Retrieval, Digital Signal Processing, Human-Computer Interaction, Unix Systems
 
 == LANGUAGE PROFICIENCY
 #chiline()
