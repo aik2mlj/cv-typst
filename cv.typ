@@ -50,13 +50,14 @@ lejun\@ccrma.stanford.edu | #link("https://aik2.site")[Webpage] | #link("https:/
 #chiline()
 
 *Center for Computer Research in Music and Acoustics, Stanford University* #h(1fr) Sept. 2024 -- Present \
-Master of Arts in Music, Science, and Technology (Fellowship) #h(1fr) California, United States
+Master of Arts in _Music, Science, and Technology_ #h(1fr) California, United States
 - GPA: 4.0 / 4.0.
-- Advisor: Prof. Julius O. Smith III, Prof. Takako Fujioka.
+- Advisor: Prof. Marina Bosi, Prof. Takako Fujioka.
 
-*ACM Honor Class, Shanghai Jiao Tong University* #h(1fr) Sept. 2019 -- June 2023 \
-Bachelor of Engineering in Computer Science (Fellowship) #h(1fr) Shanghai, China \
-- An elite CS program for *top 5%* students.
+*Zhiyuan College, Shanghai Jiao Tong University* #h(1fr) Sept. 2019 -- June 2023 \
+Bachelor of Engineering in _Computer Science_ (Fellowship) #h(1fr) Shanghai, China \
+- Member of *ACM Honor Class*, an elite CS program for *top 5%* students.
+- Graduated with *top 1%* _Outstanding Bachelor's Thesis_.
 - GPA: 89/100 (ranking: 5/27).
 
 == PUBLICATIONS
@@ -75,25 +76,29 @@ Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music
 #chiline()
 *#link("https://www.smule.com/")[Smule] AI Lab*, Research Intern #h(1fr) Oct. 2025 -- Present
 - Building a music-text joint embedding that addresses the modality gap of contrastive learning.
-- Advisor: Yongyi Zang.
+- Supervisor: Yongyi Zang.
 
-#link("https://csl.sony.fr/")[*Sony Computer Science Laboratories - Paris*], Research Intern #h(1fr) June 2025 - Sept. 2025
-- Designed an end-to-end (re-)mixing and mastering system using audio representation learning and generation. This is one of the pioneer works on automatic mixing with a fully generative approach.
+#link("https://csl.sony.fr/")[*Sony Computer Science Laboratories - Paris*], Research Intern #h(1fr) June 2025 -- Sept. 2025
+- Designed an end-to-end (re-)mixing and mastering system using audio representation learning and generation. This is a pioneering study on automatic mixing with a fully generative approach. Work under preparation for publication.
 // - Experimented adding different schemes of self-supervision to the representation learning stage.
-- Advisor: Dr. Stefan Lattner.
+- Supervisor: Dr. Stefan Lattner.
 
-*#link("https://www.musicxlab.com/")[Music X Lab], MBZUAI*, Research Assistant #h(1fr) Sept. 2023 -- Feb. 2024
+*#link("https://soundpatrol.com/")[SoundPatrol] & Stanford University*, Research Assistant #h(1fr) Feb. 2025 -- May 2025
+- Trained a singer representation model that discerns deep fake singing synthesis as potential copyright infringement. Reduced the equal error rate (EER) by 10% and boosted the top-1 accuracy up to 96% on the _SingFake_ dataset.
+- Advisor: Prof. John Thickstun, Prof. Walter De Brouwer.
+
+*#link("https://www.musicxlab.com/")[Music X Lab]*, *MBZUAI*, Research Assistant #h(1fr) Sept. 2023 -- Feb. 2024
 - Designed and implemented comprehensive experiments for the hierarchical generation of symbolic music, with a cascaded diffusion model as backend. Work published at ICLR 2024.
 // - Experimented on performance rendering for symbolic music using Transformer architecture.
 - Advisor: Prof. Gus Xia.
 
-*#link("https://www.musicxlab.com/")[Music X Lab], MBZUAI*, Research Assistant #h(1fr) June 2022 -- Dec. 2022 \
+*#link("https://www.musicxlab.com/")[Music X Lab]*, *MBZUAI*, Research Assistant #h(1fr) June 2022 -- Dec. 2022 \
 - Achieved state-of-the-art polyphonic music generation using diffusion models, with two novel control paradigms: internal control via masked generation, and external control via cross-attention mechanism. Work published at ISMIR 2023.
 - Advisor: Prof. Gus Xia.
 
-*#link("https://www.musicxlab.com/")[Music X Lab], NYU Shanghai*, Undergraduate Researcher #h(1fr) Jan. 2022 -- May 2022 \
-- Projected piano and orchestral scores to a joint latent space with variational autoencoders, and applied contrastive learning on the latent space with end-to-end autoencoder training.
-- Advisor: Prof. Gus Xia.
+// *#link("https://www.musicxlab.com/")[Music X Lab], NYU Shanghai*, Undergraduate Researcher #h(1fr) Jan. 2022 -- May 2022 \
+// - Projected piano and orchestral scores to a joint latent space with variational autoencoders, and applied contrastive learning on the latent space with end-to-end autoencoder training.
+// - Advisor: Prof. Gus Xia.
 
 // *Approximating Holant problems in 3-regular graphs* #h(1fr) Sept. 2021 – Dec. 2021 \
 // Researcher at John Hopcroft Center for Computer Science #h(1fr) Shanghai, China
@@ -125,18 +130,48 @@ Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music
 // - Well-versed in world literature. Amateur writer.
 // - Experienced in 3D modeling using Blender.
 
+== SKILLS
+#chiline()
+#set terms(hanging-indent: 13.5em, indent: 0em)
+/ #box(
+    width: 13em,
+  )[Research Specialties]: Music Generation, Music Information Retrieval, Representation & Multimodal Learning, Digital Signal Processing, Human-Computer Interaction
+/ #box(width: 13em)[Programming Languages]: C++, C, Python, Java, Rust, Verilog, Lua, Arduino, WGSL, Bash, LaTeX, Typst
+/ #box(width: 13em)[Machine Learning]: PyTorch, TensorFlow, Accelerate, Lightning
+/ #box(
+    width: 13em,
+  )[Development Environment]: Arch Linux (main OS), Neovim (main editor), Ubuntu, VSCode, Git, Docker
+/ #box(
+    width: 13em,
+  )[Audio & Graphics Software]: JUCE, ChucK, Reaper, Adobe Audition, FL Studio, Pure Data, Audacity, Blender, Adobe Premiere, Kdenlive, Krita
+
+
+== AWARDS & HONORS
+#chiline()
+*CCRMA Flagship Project Award* #h(1fr) Feb. 2025\
+*Chiang Chen Overseas Graduate Fellowship* (one of 10 awardees in Mainland China) #h(1fr) Jan. 2025\
+*CCRMA Fellowship*#h(1fr) Sept. 2024 \
+*SJTU Outstanding Bachelor’s Thesis* (one of 41 awardees out of 3873 graduates in 2023) #h(1fr) June 2023\
+*Longhu Scholarship* (top 5% in Zhiyuan College) #h(1fr) Apr. 2023\
+*SJTU Student of Merit* (one awardee in each major) #h(1fr) Dec. 2021\
+// *Member of ACM Honor Class* (top 5% in Computer Science) #h(1fr) 2019 - 2023\
+*Zhiyuan Honorary Scholarship* #h(1fr) 2019 - 2023\
+
 == TEACHING
 #chiline()
 
-*Reinforcement Learning (CS3316)*, Teaching Assistant at SJTU #h(1fr) Spring 2023
+*Perceptual Audio Coding (#link("https://ccrma.stanford.edu/courses/422")[Music 422])*, *Stanford*, Teaching Assistant #h(1fr) (Upcoming) Winter 2026
+- Lecturer: Prof. Marina Bosi.
+
+*Reinforcement Learning (#link("https://wnzhang.net/teaching/sjtu-rl-2024/")[CS 3316])*, *SJTU*, Teaching Assistant #h(1fr) Spring 2023
 - Designed a final project that involves single- or multi-agent learning for simulated hands and legged robot.
 - Lecturer: Prof. Weinan Zhang.
 
-*Design and Analysis of Algorithms (AI2615)*, Teaching Assistant at SJTU #h(1fr) Spring 2022
+*Design and Analysis of Algorithms (#link("https://wnzhang.net/teaching/sjtu-rl-2024/")[AI 2615])*, *SJTU*, Teaching Assistant #h(1fr) Spring 2022
 - Prepared well-written lecture notes and answers for assignments.
 - Lecturer: Prof. Chihao Zhang.
 
-*Principle and Practice of Computer Algorithms (CS1952)*, Teaching Assistant at SJTU #h(1fr) Summer 2021
+*Principle and Practice of Computer Algorithms (CS 1952)*, *SJTU*, Teaching Assistant #h(1fr) Summer 2021
 - Designed a comprehensive ray tracing tutorial written in the Rust language. The #link("https://github.com/aik2mlj/raytracer-tutorial")[repository] received 100+ stars on GitHub.
 - Lecturer: Prof. Yong Yu.
 
@@ -233,33 +268,6 @@ Piano, synth, & singing recording.
 #link("https://aik2.site/portfolio/sunset-sea/")[*晼海 (Sunset Sea)*] #h(1fr) Dec. 2021\
 An electronic music piece published under #link("http://www.cemofficial.com/")[CEM Records].
 
-== AWARDS & HONORS
-#chiline()
-*CCRMA Flagship Project Funding* #h(1fr) Feb. 2025\
-*Chiang Chen Overseas Graduate Fellowship* (one of 10 awardees in Mainland China) #h(1fr) Jan. 2025\
-*CCRMA Fellowship*#h(1fr) Sept. 2024 \
-*SJTU Outstanding Bachelor’s Thesis* (one of 41 awardees out of 3873 graduates in 2023) #h(1fr) June 2023\
-*Longhu Scholarship* (top 5% in Zhiyuan College) #h(1fr) Apr. 2023\
-*SJTU Student of Merit* (one awardee in each major) #h(1fr) Dec. 2021\
-*Member of ACM Honor Class* (top 5% in Computer Science) #h(1fr) 2019 - 2023\
-*Zhiyuan Honorary Scholarship* #h(1fr) 2019 - 2023\
-
-
-== SKILLS
-#chiline()
-
-#set terms(hanging-indent: 13.5em, indent: 0em)
-/ #box(width: 13em)[Programming Languages]: C++, C, Python, Java, Rust, Verilog, Lua, Arduino, WGSL, Bash, LaTeX, Typst
-/ #box(
-    width: 13em,
-  )[Development Environment]: Arch Linux (main OS), Neovim (main editor), Ubuntu, VSCode, Git, Docker, uv
-/ #box(width: 13em)[Machine Learning]: PyTorch, TensorFlow, Accelerate, Lightning
-/ #box(
-    width: 13em,
-  )[Audio & Graphics Software]: JUCE, ChucK, Reaper, Adobe Audition, FL Studio, Pure Data, Audacity, Blender, Adobe Premiere, Kdenlive, Krita
-/ #box(
-    width: 13em,
-  )[Technical Specialties]: Deep Learning, Music Generation, Music Information Retrieval, Digital Signal Processing, Human-Computer Interaction, Unix Systems
 
 == LANGUAGE PROFICIENCY
 #chiline()
