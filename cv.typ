@@ -74,7 +74,7 @@ Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music
 
 == RESEARCH EXPERIENCE
 #chiline()
-*#link("https://www.smule.com/")[Smule] AI Lab*, Research Intern #h(1fr) Oct. 2025 -- Present
+*#link("https://labs.smule.com/about/")[Smule Labs]*, Research Intern #h(1fr) Oct. 2025 -- Present
 - Building a music-text joint embedding that addresses the modality gap of contrastive learning.
 - Supervisor: Yongyi Zang.
 
