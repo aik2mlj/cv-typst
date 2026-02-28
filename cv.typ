@@ -43,7 +43,7 @@
 #set align(center)
 #text(size: 20pt)[*Lejun Min*] \
 Researcher, Artist \
-lejun\@ccrma.stanford.edu | #link("https://aik2.site")[Webpage] | #link("https://www.linkedin.com/in/lejun-min-1981a5254/")[LinkedIn]
+#link("mailto:contact@lejun.site")[contact\@lejun.site] | #link("https://aik2.site")[Webpage] | #link("https://www.linkedin.com/in/lejun-min-1981a5254/")[LinkedIn]
 
 #set align(left)
 == EDUCATION

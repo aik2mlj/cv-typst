@@ -30,7 +30,7 @@ You can download the fonts here: https://fontawesome.com/download
     ==== Researcher, Artist
 
     #contact-list((
-      (icon: "at", icon-solid: true, text: link("mailto:lejun@ccrma.stanford.edu")[lejun\@ccrma.stanford.edu]),
+      (icon: "at", icon-solid: true, text: link("mailto:contact@lejun.site")[contact\@lejun.site]),
       (icon: "globe", icon-solid: true, text: link("https://aik2.site")[aik2.site]),
       (icon: "linkedin", text: link("https://www.linkedin.com/in/lejun-min-1981a5254/")[LinkedIn]),
       (icon: "github", text: link("https://github.com/aik2mlj/")[GitHub]),
