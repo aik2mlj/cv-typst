@@ -43,7 +43,7 @@
 #set align(center)
 #text(size: 20pt)[*Lejun Min*] \
 Researcher, Artist \
-#link("mailto:contact@lejun.site")[contact\@lejun.site] | #link("https://aik2.site")[Webpage] | #link("https://www.linkedin.com/in/lejun-min-1981a5254/")[LinkedIn]
+#link("mailto:contact@lejun.site")[contact\@lejun.site] | #link("https://lejun.site")[Webpage] | #link("https://www.linkedin.com/in/lejun-min-1981a5254/")[LinkedIn]
 
 #set align(left)
 == EDUCATION
@@ -182,41 +182,41 @@ Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music
 == Computer Graphics
 #dotedline()
 
-#link("https://aik2.site/projects/gigantic-splight/")[*Gigantic Splight*] (_Python_) #h(1fr) June 2022\
+#link("https://lejun.site/projects/gigantic-splight/")[*Gigantic Splight*] (_Python_) #h(1fr) June 2022\
 An interactive 3D fluids simulation based on Taichi framework.
 
-#link("https://aik2.site/projects/scotty3d/")[*Scotty3D*] (_C++_) #h(1fr) Mar. 2022\
+#link("https://lejun.site/projects/scotty3d/")[*Scotty3D*] (_C++_) #h(1fr) Mar. 2022\
 A comprehensive CG project including software rastization, interactive mesh editing, path tracing, and dynamic animation.
 
-#link("https://aik2.site/projects/raytracer/")[*Ray Tracer*] (_Rust_) #h(1fr) Aug. 2020\
+#link("https://lejun.site/projects/raytracer/")[*Ray Tracer*] (_Rust_) #h(1fr) Aug. 2020\
 A complete ray tracing engine in Rust.
 
 
 // == Audio Signal Processing
 // #dotedline()
 //
-// #link("https://aik2.site/projects/simple-eq/")[*Simple EQ*] (_C++_) #h(1fr) Jan. 2022\
+// #link("https://lejun.site/projects/simple-eq/")[*Simple EQ*] (_C++_) #h(1fr) Jan. 2022\
 // A step-by-step JUCE learning project for audio plugin development.
 //
-// #link("https://aik2.site/projects/Audiobia/")[*Audiobia*] (_Python & Tensorflow_) #h(1fr) May 2021\
+// #link("https://lejun.site/projects/Audiobia/")[*Audiobia*] (_Python & Tensorflow_) #h(1fr) May 2021\
 // Audio classification using Google’s EfficientNet and Harmonic Percussive Source Separation (HPSS).
 
 == Compiler & Computer Architecture
 #dotedline()
 
-#link("https://aik2.site/projects/mx-compiler/")[*Mx Compiler*] (_Java_) #h(1fr) May 2021\
+#link("https://lejun.site/projects/mx-compiler/")[*Mx Compiler*] (_Java_) #h(1fr) May 2021\
 A completely hand-made compiler for a toy language (Java subset) that surpasses `-o1` optimization.
 
-#link("https://aik2.site/projects/riscv-cpu/")[*RISC-V CPU*] (_Verilog_) #h(1fr) Dec. 2020\
+#link("https://lejun.site/projects/riscv-cpu/")[*RISC-V CPU*] (_Verilog_) #h(1fr) Dec. 2020\
 An emulated 5-pipelined RISCV32I CPU with real-world FPGA implementation.
 
-#link("https://aik2.site/projects/python_interpreter/")[*Python Interpreter*] (_C++_) #h(1fr) Feb. 2020\
+#link("https://lejun.site/projects/python_interpreter/")[*Python Interpreter*] (_C++_) #h(1fr) Feb. 2020\
 A Python language interpreter.
 
 == Algorithm & Data Structure
 #dotedline()
 
-#link("https://aik2.site/projects/ticket-system/")[*Train Ticket System*] (_C++_) #h(1fr) June 2020\
+#link("https://lejun.site/projects/ticket-system/")[*Train Ticket System*] (_C++_) #h(1fr) June 2020\
 A cooperated project including backend coding, B+ Tree data structure implementation and frontend website design.
 
 
@@ -226,46 +226,46 @@ A cooperated project including backend coding, B+ Tree data structure implementa
 == Live Performance & Intermedia Art
 #dotedline()
 
-#link("https://aik2.site/portfolio/dream-sound-poetry/")[*Sound Poetry*], _for 2-channel audio & vocalists_  #h(1fr) Dec. 2025\
+#link("https://lejun.site/portfolio/dream-sound-poetry/")[*Sound Poetry*], _for 2-channel audio & vocalists_  #h(1fr) Dec. 2025\
 A musique concrète sound poem about dream, and a mandarin (grape) fugue.
 
-#link("https://aik2.site/portfolio/umbrella-intermedia/")[*Umbrella*], _for Ambisonics audio & video_ #h(1fr) Dec. 2025\
+#link("https://lejun.site/portfolio/umbrella-intermedia/")[*Umbrella*], _for Ambisonics audio & video_ #h(1fr) Dec. 2025\
 An intermedia piece exploring the nature of self and fear.
 
-#link("https://aik2.site/portfolio/interplanetary-concert-performance/")[*Interplanetary Concert*], _for 2-channel audio, video, & live performer_ #h(1fr) Oct. 2025\
+#link("https://lejun.site/portfolio/interplanetary-concert-performance/")[*Interplanetary Concert*], _for 2-channel audio, video, & live performer_ #h(1fr) Oct. 2025\
 Breaking the fourth wall with the interplanetary teleportation system.
 
-#link("https://aik2.site/portfolio/a-chan-conversation/")[*A Chan Conversation*], _for Ambisonics audio, Gametrak, & live performer_ #h(1fr) May 2025\
+#link("https://lejun.site/portfolio/a-chan-conversation/")[*A Chan Conversation*], _for Ambisonics audio, Gametrak, & live performer_ #h(1fr) May 2025\
 A sonic conversation with an ancient Chan Buddhist monk. Performed on #link("https://ccrma.stanford.edu/ccrma-open-house-2025")[CCRMA Open House Concert 2025].
 
 == Interface & Interactive Design
 #dotedline()
 
-#link("https://aik2.site/portfolio/sonic-skateboard/")[*Sonic Skateboard*] (_Arduino & #link("https://chuck.stanford.edu/")[ChucK]_) #h(1fr) June 2025\
+#link("https://lejun.site/portfolio/sonic-skateboard/")[*Sonic Skateboard*] (_Arduino & #link("https://chuck.stanford.edu/")[ChucK]_) #h(1fr) June 2025\
 Turn my skateboard into a musical instrument.
 
-#link("https://aik2.site/portfolio/blackhole/")[*Talking to A Black Hole*] (_#link("https://chuck.stanford.edu/")[ChucK] & #link("https://chuck.stanford.edu/chugl/")[ChuGL]_ & _#link("https://www.w3.org/TR/WGSL/")[WGSL]_) #h(1fr) Dec. 2024\
+#link("https://lejun.site/portfolio/blackhole/")[*Talking to A Black Hole*] (_#link("https://chuck.stanford.edu/")[ChucK] & #link("https://chuck.stanford.edu/chugl/")[ChuGL]_ & _#link("https://www.w3.org/TR/WGSL/")[WGSL]_) #h(1fr) Dec. 2024\
 Let the noise guide you through the event horizon of a lonely black hole.
 
-#link("https://aik2.site/portfolio/kandinsky-sonified/")[*Kandinsky Sonified*] (_#link("https://chuck.stanford.edu/")[ChucK] & #link("https://chuck.stanford.edu/chugl/")[ChuGL]_) #h(1fr) Nov. 2024\
+#link("https://lejun.site/portfolio/kandinsky-sonified/")[*Kandinsky Sonified*] (_#link("https://chuck.stanford.edu/")[ChucK] & #link("https://chuck.stanford.edu/chugl/")[ChuGL]_) #h(1fr) Nov. 2024\
 An interactive audiovisual #link("https://cm-wiki.stanford.edu/wiki/256a-fall-2024/hw3")[music sequencer] that creates and sonifies Kandinsky-like abstract paintings.
 
-#link("https://aik2.site/portfolio/fireflies/")[*Fireflies*] (_#link("https://chuck.stanford.edu/")[ChucK] & #link("https://chuck.stanford.edu/chugl/")[ChuGL]_) #h(1fr) Oct. 2024\
+#link("https://lejun.site/portfolio/fireflies/")[*Fireflies*] (_#link("https://chuck.stanford.edu/")[ChucK] & #link("https://chuck.stanford.edu/chugl/")[ChuGL]_) #h(1fr) Oct. 2024\
 An interactive music therapy journey embodying a firefly. Essentially a #link("https://cm-wiki.stanford.edu/wiki/256a-fall-2024/hw2")[sound peeking] visualization.
 
 == Music & Sound Art
 #dotedline()
 
-#link("https://aik2.site/portfolio/backrooms/")[*The Backrooms: Audio Drama*], _for binaural audio_ #h(1fr) Dec. 2024\
+#link("https://lejun.site/portfolio/backrooms/")[*The Backrooms: Audio Drama*], _for binaural audio_ #h(1fr) Dec. 2024\
 The protagonist "no-clipped" into a weird space where he heard things beyond his comprehension.
 
-#link("https://aik2.site/portfolio/yijiu/")[*忆久 (Memories Last Long)*] #h(1fr) June 2023\
+#link("https://lejun.site/portfolio/yijiu/")[*忆久 (Memories Last Long)*] #h(1fr) June 2023\
 A song and a music video dedicated to the Zhiyuan College graduates of 2023.
 
-#link("https://aik2.site/portfolio/should-have-known-better/")[*Should Have Known Better (piano & synth cover) *] #h(1fr) Feb. 2023\
+#link("https://lejun.site/portfolio/should-have-known-better/")[*Should Have Known Better (piano & synth cover) *] #h(1fr) Feb. 2023\
 Piano, synth, & singing recording.
 
-#link("https://aik2.site/portfolio/sunset-sea/")[*晼海 (Sunset Sea)*] #h(1fr) Dec. 2021\
+#link("https://lejun.site/portfolio/sunset-sea/")[*晼海 (Sunset Sea)*] #h(1fr) Dec. 2021\
 An electronic music piece published under #link("http://www.cemofficial.com/")[CEM Records].
 
 
@@ -278,13 +278,13 @@ Mandarin Chinese (native), English (fluent), French (beginner) \
 // == Painting
 // #dotedline()
 //
-// #link("https://aik2.site/portfolio/monochrome/")[*Monochrome*] #h(1fr) Oct. 2022\
+// #link("https://lejun.site/portfolio/monochrome/")[*Monochrome*] #h(1fr) Oct. 2022\
 // Monochromatic drawings on paper and whiteboard.
 //
-// #link("https://aik2.site/portfolio/2019-pastels/")[*Pastels*] #h(1fr) July 2019\
+// #link("https://lejun.site/portfolio/2019-pastels/")[*Pastels*] #h(1fr) July 2019\
 // Pastel paintings mimicking dull pictures.
 //
-// #link("https://aik2.site/portfolio/2017-sketches/")[*Sketches*] #h(1fr) Dec. 2017\
+// #link("https://lejun.site/portfolio/2017-sketches/")[*Sketches*] #h(1fr) Dec. 2017\
 // Sketches from high school.
 
 

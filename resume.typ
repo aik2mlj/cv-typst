@@ -31,7 +31,7 @@ You can download the fonts here: https://fontawesome.com/download
 
     #contact-list((
       (icon: "at", icon-solid: true, text: link("mailto:contact@lejun.site")[contact\@lejun.site]),
-      (icon: "globe", icon-solid: true, text: link("https://aik2.site")[aik2.site]),
+      (icon: "globe", icon-solid: true, text: link("https://lejun.site")[lejun.site]),
       (icon: "linkedin", text: link("https://www.linkedin.com/in/lejun-min-1981a5254/")[LinkedIn]),
       (icon: "github", text: link("https://github.com/aik2mlj/")[GitHub]),
     ))
@@ -290,22 +290,22 @@ You can download the fonts here: https://fontawesome.com/download
           (
             icon: "cube",
             icon-solid: true,
-            text: [#link("https://aik2.site/projects/scotty3d/")[#highlight[Scotty3D]]: Software rasterization, mesh editing, path tracing, animation (C++)],
+            text: [#link("https://lejun.site/projects/scotty3d/")[#highlight[Scotty3D]]: Software rasterization, mesh editing, path tracing, animation (C++)],
           ),
           (
             icon: "sun",
             icon-solid: true,
-            text: [#link("https://aik2.site/projects/raytracer/")[#highlight[Ray Tracer]]: Complete ray tracing engine in Rust],
+            text: [#link("https://lejun.site/projects/raytracer/")[#highlight[Ray Tracer]]: Complete ray tracing engine in Rust],
           ),
           (
             icon: "microchip",
             icon-solid: true,
-            text: [#link("https://aik2.site/projects/riscv-cpu/")[#highlight[RISC-V CPU]]: 5-pipelined RISCV32I with FPGA implementation (Verilog)],
+            text: [#link("https://lejun.site/projects/riscv-cpu/")[#highlight[RISC-V CPU]]: 5-pipelined RISCV32I with FPGA implementation (Verilog)],
           ),
           (
             icon: "code",
             icon-solid: true,
-            text: [#link("https://aik2.site/projects/mx-compiler/")[#highlight[Mx Compiler]]: Hand-made compiler surpassing -O1 optimization (Java)],
+            text: [#link("https://lejun.site/projects/mx-compiler/")[#highlight[Mx Compiler]]: Hand-made compiler surpassing -O1 optimization (Java)],
           ),
         ))
       ]
@@ -315,26 +315,26 @@ You can download the fonts here: https://fontawesome.com/download
           (
             icon: "headphones",
             icon-solid: true,
-            text: [#link("https://aik2.site/portfolio/a-chan-conversation/")[#highlight[A Chan Conversation]]: Ambisonics performance with Gametrak],
+            text: [#link("https://lejun.site/portfolio/a-chan-conversation/")[#highlight[A Chan Conversation]]: Ambisonics performance with Gametrak],
           ),
           (
             icon: "umbrella",
             icon-solid: true,
-            text: [#link("https://aik2.site/portfolio/umbrella-intermedia/")[#highlight[Umbrella]]: Intermedia piece for Ambisonics audio & video exploring self and fear],
+            text: [#link("https://lejun.site/portfolio/umbrella-intermedia/")[#highlight[Umbrella]]: Intermedia piece for Ambisonics audio & video exploring self and fear],
           ),
           (
             icon: "gamepad",
-            text: [#link("https://aik2.site/portfolio/sonic-skateboard/")[#highlight[Sonic Skateboard]]: Arduino + ChucK musical instrument],
+            text: [#link("https://lejun.site/portfolio/sonic-skateboard/")[#highlight[Sonic Skateboard]]: Arduino + ChucK musical instrument],
           ),
           (
             icon: "palette",
             icon-solid: true,
-            text: [#link("https://aik2.site/portfolio/kandinsky-sonified/")[#highlight[Kandinsky Sonified]]: Interactive audiovisual music sequencer creating Kandinsky-like abstract paintings],
+            text: [#link("https://lejun.site/portfolio/kandinsky-sonified/")[#highlight[Kandinsky Sonified]]: Interactive audiovisual music sequencer creating Kandinsky-like abstract paintings],
           ),
           (
             icon: "record-vinyl",
             icon-solid: true,
-            text: [#link("https://aik2.site/portfolio/sunset-sea/")[#highlight[晼海 (Sunset Sea)]]: Electronic music published under #link("http://www.cemofficial.com/")[CEM Records]],
+            text: [#link("https://lejun.site/portfolio/sunset-sea/")[#highlight[晼海 (Sunset Sea)]]: Electronic music published under #link("http://www.cemofficial.com/")[CEM Records]],
           ),
         ))
       ]
