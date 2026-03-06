@@ -160,7 +160,8 @@ Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music
 == TEACHING
 #chiline()
 
-*Perceptual Audio Coding (#link("https://ccrma.stanford.edu/courses/422")[Music 422])*, *Stanford*, Teaching Assistant #h(1fr) (Upcoming) Winter 2026
+*Perceptual Audio Coding (#link("https://ccrma.stanford.edu/courses/422")[Music 422])*, *Stanford University*, Teaching Assistant #h(1fr) Winter 2026
+- Taught a #link("https://lejun.site/teaching/2026-winter-music422")[review lecture] on perceptual audio codec components. Renovated coding environment setup with a #link("https://github.com/aik2mlj/MUSIC422-template")[template repository].
 - Lecturer: Prof. Marina Bosi.
 
 *Reinforcement Learning (#link("https://wnzhang.net/teaching/sjtu-rl-2024/")[CS 3316])*, *SJTU*, Teaching Assistant #h(1fr) Spring 2023
@@ -267,6 +268,39 @@ Piano, synth, & singing recording.
 
 #link("https://lejun.site/portfolio/sunset-sea/")[*晼海 (Sunset Sea)*] #h(1fr) Dec. 2021\
 An electronic music piece published under #link("http://www.cemofficial.com/")[CEM Records].
+
+
+== OPEN-SOURCE CONTRIBUTIONS
+#chiline()
+#link("https://github.com/aik2mlj/canvas-downloader")[*canvas-downloader*] (_Rust_), Author & Packager \
+A command-line tool to download and organize all your Canvas course materials.
+
+#link("https://github.com/aik2mlj/emailbook-rs/")[*emailbook-rs*] (_Rust_), Author & Packager \
+A minimalistic email address book with #link("https://aerc-mail.org/")[aerc] integration.
+
+#link("https://github.com/aik2mlj/chuckfmt")[*chuckfmt*] (_Rust_), Author & Packager \
+A fast code formatter for #link("https://chuck.stanford.edu/")[ChucK] programming language.
+
+#link("https://github.com/aik2mlj/cli-toolbox")[*cli-toobox*] (_Shell Scripts_), Author \
+A curated collection of modern command-line tools and configurations for terminal-based development.
+
+#link("https://github.com/aik2mlj/AUR")[*AUR*] (_Shell Scripts_), Packager \
+My managed #link("https://aur.archlinux.org/")[Arch User Repository] packages with automated version tracking and updates.
+
+#link("https://github.com/plugdata-team/plugdata")[*plugdata*] (_C++_), Packager \
+A plugin wrapper for #link("https://puredata.info/")[Pure Data], featuring a new GUI made with #link("https://juce.com/")[JUCE].
+
+// #link("https://github.com/ccrma/chugl")[*ChuGL*] (a graphics library for ChucK), Contributor
+
+== COMMUNITY SERVICE
+#chiline()
+#link("https://ligeti-zentrum.de/icmc-2026/")[*International Computer Music Conference (ICMC) 2026*], Reviewer #h(1fr) 2026 \
+#link("https://icmc2025.sites.northeastern.edu/")[*International Computer Music Conference (ICMC) 2025*], Reviewer #h(1fr) 2025 \
+*#link("https://m-a-p.ai/LLM4Music/")[Large Language Models for Music & Audio (LLM4MA) Workshop] at #link("https://ismir2025.ismir.net/")[ISMIR 2025]*, Reviewer #h(1fr) 2025 \
+#link("https://chuck.stanford.edu/doc/authors.html")[*ChucK Development Team*], *CCRMA*, *Stanford University*, Contributor #h(1fr) 2025 - Present \
+*Game Audio Initiative*, *Stanford University*, Founder #h(1fr) 2025 - Present \
+#link("https://ccrma.stanford.edu/dsp-seminars")[*DSP Seminar*], *CCRMA*, *Stanford University*, Speaker & Contributor #h(1fr) 2024 - Present \
+#link("https://aur.archlinux.org/packages?K=aik2&SeB=m")[*Arch User Repository (AUR)*], Maintainer (id: aik2) #h(1fr) 2022 - Present \
 
 
 == LANGUAGE PROFICIENCY
