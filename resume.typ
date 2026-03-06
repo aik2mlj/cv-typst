@@ -175,7 +175,7 @@ You can download the fonts here: https://fontawesome.com/download
     #section(title: "Experience")[
       #section-element(
         title: [#link("https://labs.smule.com/about/")[Smule Labs] -- Research Intern],
-        info: [_Oct. 2025 -- Present_],
+        info: [_Oct. 2025 -- Dec. 2025_],
         [
           #set text(size: sizes.text-s2)
           #icon-list((
