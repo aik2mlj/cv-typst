@@ -182,7 +182,7 @@ You can download the fonts here: https://fontawesome.com/download
             (
               icon: "microphone",
               icon-solid: true,
-              text: [Building music-text joint embedding addressing modality gap of contrastive learning.],
+              text: [Built a music-text joint embedding addressing modality gap of contrastive learning.],
             ),
             (icon: "user-tie", icon-solid: true, text: [Supervisor: Yongyi Zang]),
           ))
@@ -283,61 +283,100 @@ You can download the fonts here: https://fontawesome.com/download
       )
     ]
 
-    #section(title: "Selected Projects")[
-      #section-element(title: "Programming")[
-        #set text(size: sizes.text-s2)
-        #icon-list((
-          (
-            icon: "cube",
-            icon-solid: true,
-            text: [#link("https://lejun.site/projects/scotty3d/")[#highlight[Scotty3D]]: Software rasterization, mesh editing, path tracing, animation (C++)],
-          ),
-          (
-            icon: "sun",
-            icon-solid: true,
-            text: [#link("https://lejun.site/projects/raytracer/")[#highlight[Ray Tracer]]: Complete ray tracing engine in Rust],
-          ),
-          (
-            icon: "microchip",
-            icon-solid: true,
-            text: [#link("https://lejun.site/projects/riscv-cpu/")[#highlight[RISC-V CPU]]: 5-pipelined RISCV32I with FPGA implementation (Verilog)],
-          ),
-          (
-            icon: "code",
-            icon-solid: true,
-            text: [#link("https://lejun.site/projects/mx-compiler/")[#highlight[Mx Compiler]]: Hand-made compiler surpassing -O1 optimization (Java)],
-          ),
-        ))
-      ]
-      #section-element(title: "Art & Music")[
-        #set text(size: sizes.text-s2)
-        #icon-list((
-          (
-            icon: "headphones",
-            icon-solid: true,
-            text: [#link("https://lejun.site/portfolio/a-chan-conversation/")[#highlight[A Chan Conversation]]: Ambisonics performance with Gametrak],
-          ),
-          (
-            icon: "umbrella",
-            icon-solid: true,
-            text: [#link("https://lejun.site/portfolio/umbrella-intermedia/")[#highlight[Umbrella]]: Intermedia piece for Ambisonics audio & video exploring self and fear],
-          ),
-          (
-            icon: "gamepad",
-            text: [#link("https://lejun.site/portfolio/sonic-skateboard/")[#highlight[Sonic Skateboard]]: Arduino + ChucK musical instrument],
-          ),
-          (
-            icon: "palette",
-            icon-solid: true,
-            text: [#link("https://lejun.site/portfolio/kandinsky-sonified/")[#highlight[Kandinsky Sonified]]: Interactive audiovisual music sequencer creating Kandinsky-like abstract paintings],
-          ),
-          (
-            icon: "record-vinyl",
-            icon-solid: true,
-            text: [#link("https://lejun.site/portfolio/sunset-sea/")[#highlight[晼海 (Sunset Sea)]]: Electronic music published under #link("http://www.cemofficial.com/")[CEM Records]],
-          ),
-        ))
-      ]
+    #section(title: "Teaching")[
+      // #section-element(title: "Music 422: Perceptual Audio Coding", info: [Winter 2026])[
+      //   #set text(size: sizes.text-s2)
+      //   Teaching Assistant for Prof. Marina Bosi, Stanford University
+      // ]
+      //
+      #v(3pt)
+      #set text(size: sizes.text-s2)
+      #text(weight: "semibold")[Perceptual Audio Coding], Teaching Assistant at Stanford #h(1fr) #text(size: sizes.text-s3)[Winter 2026]
+
+      #text(weight: "semibold")[Reinforcement Learning], Teaching Assistant at SJTU #h(1fr) #text(size: sizes.text-s3)[Spring 2023]
+
+      #text(weight: "semibold")[Design and Analysis of Algorithms], Teaching Assistant at SJTU #h(1fr) #text(size: sizes.text-s3)[Spring 2022]
+
+      #text(weight: "semibold")[Principle and Practice of Computer Algorithms], Teaching Assistant at SJTU #h(1fr) #text(size: sizes.text-s3)[Summer 2021]
     ]
+
+    #section(title: "Selected Projects")[
+      // #section-element(title: "Programming")[
+      #v(3pt)
+      #set text(size: sizes.text-s2)
+      #icon-list((
+        // (
+        //   icon: "cube",
+        //   icon-solid: true,
+        //   text: [#link("https://lejun.site/projects/scotty3d/")[#highlight[Scotty3D]]: Software rasterization, mesh editing, path tracing, animation (C++)],
+        // ),
+        (
+          icon: "sun",
+          icon-solid: true,
+          text: [#link("https://lejun.site/projects/raytracer/")[#highlight[Ray Tracer]]: Complete ray tracing engine in Rust],
+        ),
+        (
+          icon: "microchip",
+          icon-solid: true,
+          text: [#link("https://lejun.site/projects/riscv-cpu/")[#highlight[RISC-V CPU]]: 5-pipelined RISCV32I with FPGA implementation (_Verilog_)],
+        ),
+        (
+          icon: "code",
+          icon-solid: true,
+          text: [#link("https://lejun.site/projects/mx-compiler/")[#highlight[Mx Compiler]]: Hand-made compiler surpassing -O1 optimization (_Java_)],
+        ),
+        (
+          icon: "headphones",
+          icon-solid: true,
+          text: [#link("https://lejun.site/portfolio/a-chan-conversation/")[#highlight[A Chan Conversation]]: Ambisonics performance with Gametrak],
+        ),
+        (
+          icon: "umbrella",
+          icon-solid: true,
+          text: [#link("https://lejun.site/portfolio/umbrella-intermedia/")[#highlight[Umbrella]]: Intermedia piece for Ambisonics audio & video exploring self and fear],
+        ),
+        (
+          icon: "gamepad",
+          text: [#link("https://lejun.site/portfolio/sonic-skateboard/")[#highlight[Sonic Skateboard]]: Arduino + ChucK musical instrument],
+        ),
+        (
+          icon: "record-vinyl",
+          icon-solid: true,
+          text: [#link("https://lejun.site/portfolio/sunset-sea/")[#highlight[晼海 (Sunset Sea)]]: Electronic music published under #link("http://www.cemofficial.com/")[CEM Records]],
+        ),
+      ))
+      // ]
+
+      // #section-element(title: "Art & Music")[
+      //   #set text(size: sizes.text-s2)
+      // #icon-list((
+      //   (
+      //     icon: "headphones",
+      //     icon-solid: true,
+      //     text: [#link("https://lejun.site/portfolio/a-chan-conversation/")[#highlight[A Chan Conversation]]: Ambisonics performance with Gametrak],
+      //   ),
+      //   (
+      //     icon: "umbrella",
+      //     icon-solid: true,
+      //     text: [#link("https://lejun.site/portfolio/umbrella-intermedia/")[#highlight[Umbrella]]: Intermedia piece for Ambisonics audio & video exploring self and fear],
+      //   ),
+      //   (
+      //     icon: "gamepad",
+      //     text: [#link("https://lejun.site/portfolio/sonic-skateboard/")[#highlight[Sonic Skateboard]]: Arduino + ChucK musical instrument],
+      //   ),
+      // (
+      //   icon: "palette",
+      //   icon-solid: true,
+      //   text: [#link("https://lejun.site/portfolio/kandinsky-sonified/")[#highlight[Kandinsky Sonified]]: Interactive audiovisual music sequencer creating Kandinsky-like abstract paintings],
+      // ),
+      // (
+      //   icon: "record-vinyl",
+      //   icon-solid: true,
+      //   text: [#link("https://lejun.site/portfolio/sunset-sea/")[#highlight[晼海 (Sunset Sea)]]: Electronic music published under #link("http://www.cemofficial.com/")[CEM Records]],
+      // ),
+      // ))
+      // ]
+    ]
+
   ],
 )
