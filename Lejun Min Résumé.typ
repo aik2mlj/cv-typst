@@ -175,14 +175,15 @@ You can download the fonts here: https://fontawesome.com/download
     #section(title: "Experience")[
       #section-element(
         title: [#link("https://labs.smule.com/about/")[Smule Labs] -- Research Intern],
-        info: [_Oct. 2025 -- Dec. 2025_],
+        info: [_Oct. 2025 -- Dec. 2025, Mar. 2026 -- May 2026_],
         [
           #set text(size: sizes.text-s2)
           #icon-list((
             (
               icon: "microphone",
               icon-solid: true,
-              text: [Built a music-text joint embedding addressing modality gap of contrastive learning.],
+              text: [Built a disentangled music semantic embedding by end-to-end audio captioning with self-supervised learning regularizations. Work under preparation for publication.
+              ],
             ),
             (icon: "user-tie", icon-solid: true, text: [Supervisor: Yongyi Zang]),
           ))
@@ -311,9 +312,9 @@ You can download the fonts here: https://fontawesome.com/download
         //   text: [#link("https://lejun.site/projects/scotty3d/")[#highlight[Scotty3D]]: Software rasterization, mesh editing, path tracing, animation (C++)],
         // ),
         (
-          icon: "sun",
+          icon: "code",
           icon-solid: true,
-          text: [#link("https://lejun.site/projects/raytracer/")[#highlight[Ray Tracer]]: Complete ray tracing engine in Rust],
+          text: [#link("https://lejun.site/projects/mx-compiler/")[#highlight[Mx Compiler]]: Hand-made compiler surpassing -O1 optimization (_Java_)],
         ),
         (
           icon: "microchip",
@@ -321,9 +322,9 @@ You can download the fonts here: https://fontawesome.com/download
           text: [#link("https://lejun.site/projects/riscv-cpu/")[#highlight[RISC-V CPU]]: 5-pipelined RISCV32I with FPGA implementation (_Verilog_)],
         ),
         (
-          icon: "code",
+          icon: "sun",
           icon-solid: true,
-          text: [#link("https://lejun.site/projects/mx-compiler/")[#highlight[Mx Compiler]]: Hand-made compiler surpassing -O1 optimization (_Java_)],
+          text: [#link("https://lejun.site/projects/raytracer/")[#highlight[Ray Tracer]]: Complete ray tracing engine in Rust],
         ),
         (
           icon: "headphones",
@@ -339,11 +340,11 @@ You can download the fonts here: https://fontawesome.com/download
           icon: "gamepad",
           text: [#link("https://lejun.site/portfolio/sonic-skateboard/")[#highlight[Sonic Skateboard]]: Arduino + ChucK musical instrument],
         ),
-        (
-          icon: "record-vinyl",
-          icon-solid: true,
-          text: [#link("https://lejun.site/portfolio/sunset-sea/")[#highlight[晼海 (Sunset Sea)]]: Electronic music published under #link("http://www.cemofficial.com/")[CEM Records]],
-        ),
+        // (
+        //   icon: "record-vinyl",
+        //   icon-solid: true,
+        //   text: [#link("https://lejun.site/portfolio/sunset-sea/")[#highlight[晼海 (Sunset Sea)]]: Electronic music published under #link("http://www.cemofficial.com/")[CEM Records]],
+        // ),
       ))
       // ]
 
