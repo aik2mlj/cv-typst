@@ -27,124 +27,115 @@ You can download the fonts here: https://fontawesome.com/download
   sidebar-width: 33%,
   sidebar: [
     = Lejun Min
-    ==== Researcher, Artist
+    ==== Audio ML Research Engineer
 
     #contact-list((
+      (icon: "location-dot", icon-solid: true, text: [Stanford, CA]),
       (icon: "at", icon-solid: true, text: link("mailto:contact@lejun.site")[contact\@lejun.site]),
       (icon: "globe", icon-solid: true, text: link("https://lejun.site")[lejun.site]),
       (icon: "linkedin", text: link("https://www.linkedin.com/in/lejun-min-1981a5254/")[LinkedIn]),
       (icon: "github", text: link("https://github.com/aik2mlj/")[GitHub]),
+      (icon: "language", icon-solid: true, text: [Mandarin / English]),
     ))
+    #v(-6pt)
 
-    #sidebar-section(title: "About me")[
+    #sidebar-section(title: "Profile")[
       #set par(justify: true)
       #set text(size: sizes.text-s1)
 
       #show par: it => block(width: 100%, it)
 
-      Master's student at #highlight[Stanford CCRMA] specializing in #highlight[music generation], #highlight[audio signal processing], and #highlight[human-computer interaction]. Published at top venues including #highlight[ICLR (Spotlight)] and #highlight[ISMIR].
-
-      Intermedia & sonic artist with various performances and installations. Passionate about bridging AI and creative expression through innovative music technologies.
+      Audio ML researcher spanning #highlight[generative audio and music], #highlight[multimodal representation learning], and #highlight[audio signal processing], from symbolic music generation to neural audio representations and deployed detection systems.
     ]
 
     #sidebar-section(title: "Technical Skills")[
       #skill-group(
-        name: "Research Areas",
+        name: "Audio ML",
         icon: "lightbulb",
         icon-solid: true,
         skills: (
-          "Music Generation",
+          "Audio & Music Generation",
+          "Audio Tokenization / Neural Codecs",
+          "Audio Representation Learning",
+          "Audio Captioning",
           "Music Information Retrieval",
-          "Representation Learning",
-          "Multimodal Learning",
+          "Audio Deepfake Detection",
+          "Perceptual Audio Coding",
           "Digital Signal Processing",
-          "Human-Computer Interaction",
         ),
       )
 
       #skill-group(
-        name: "Programming",
+        name: "ML Methods",
+        icon: "brain",
+        icon-solid: true,
+        skills: (
+          "Diffusion Models",
+          "Transformers",
+          "Self-Supervised Learning",
+          "Multimodal Learning",
+          "Contrastive Learning",
+        ),
+      )
+
+      #skill-group(
+        name: "Languages & Frameworks",
         icon: "code",
         icon-solid: true,
         skills: (
           "Python",
           "C++",
-          "C",
-          "Java",
           "Rust",
-          "Verilog",
-          "Lua",
-          "Arduino",
-          "WGSL",
-          "Bash",
-        ),
-      )
-
-      #skill-group(
-        name: "Machine Learning",
-        icon: "brain",
-        icon-solid: true,
-        skills: (
           "PyTorch",
           "TensorFlow",
+          "Hugging Face",
+          "torchaudio",
+          "librosa",
           "Accelerate",
           "Lightning",
         ),
       )
 
       #skill-group(
-        name: "Audio & Graphics",
+        name: "Audio Tools",
         icon: "music",
         icon-solid: true,
         skills: (
           "JUCE",
           "ChucK",
-          "Reaper",
-          // "FL Studio",
-          "Pure Data",
-          "Blender",
-          "Adobe Premiere",
-          // "Kdenlive"
+          "Ambisonics",
         ),
       )
 
       #skill-group(
-        name: "Development",
+        name: "ML Systems",
         icon: "terminal",
         icon-solid: true,
         skills: (
-          "Arch Linux",
-          "Neovim",
-          "Git",
+          "Linux",
           "Docker",
-          // "LaTeX",
-          // "Typst",
+          "Distributed Training",
+          "SLURM",
+          "MLflow",
         ),
       )
     ]
 
-    #sidebar-section(title: "Languages")[
-      #skill-levels((
-        (icon: "🇨🇳", text: "Mandarin Chinese", level: 100%),
-        (icon: "🇺🇸", text: [English #highlight[(TOEFL 112)]], level: 98%),
-        (icon: "🇫🇷", text: "French", level: 20%),
-      ))
-    ]
   ],
   main-content: [
     #section(title: "Education")[
       #section-element(
         title: link("https://ccrma.stanford.edu/")[Stanford University, CCRMA],
-        info: [2024 -- Present],
+        info: [_2024 -- Expected Jan. 2027_],
         [
           #set text(size: sizes.text-s2)
-          _M.A. in Music, Science, and Technology_ (#highlight[GPA 4.0/4.0])
+          _Master in Music, Science, and Technology_ (#highlight[GPA 4.0/4.0])
           #icon-list((
             (icon: "user-tie", icon-solid: true, text: [Advisors: Prof. Marina Bosi, Prof. Takako Fujioka]),
             (
-              icon: "award",
+              icon: "chalkboard-teacher",
               icon-solid: true,
-              text: [CCRMA Flagship Project Award, Chiang Chen Overseas Graduate Fellowship],
+              text: [Teaching Assistant of #link("https://ccrma.stanford.edu/courses/422")[_Perceptual Audio Coding (Winter 2026)_]],
             ),
           ))
         ],
@@ -152,10 +143,10 @@ You can download the fonts here: https://fontawesome.com/download
 
       #section-element(
         title: link("https://zhiyuan.sjtu.edu.cn/")[Shanghai Jiao Tong University, Zhiyuan College],
-        info: [2019 -- 2023],
+        info: [_2019 -- 2023_],
         [
           #set text(size: sizes.text-s2)
-          _B.Eng. in Computer Science_ (Fellowship)
+          _Bachelor in Computer Science_ (Fellowship)
           #icon-list((
             (
               icon: "star",
@@ -174,6 +165,31 @@ You can download the fonts here: https://fontawesome.com/download
 
     #section(title: "Experience")[
       #section-element(
+        title: [#link("https://tongyi.aliyun.com/")[Qwen Audio, Alibaba Token Foundry] -- Research Intern],
+        info: [_June 2026 -- Sept. 2026_],
+        [
+          #set text(size: sizes.text-s2)
+          #icon-list((
+            (
+              icon: "music",
+              icon-solid: true,
+              text: [Co-developed #link("https://arxiv.org/abs/2607.27011")[#underline[Qwen-Audio-3.0-Gen-Preview]], a unified generative model for long-form, multi-character audio scenes with explicit temporal control.],
+            ),
+            (
+              icon: "wave-square",
+              icon-solid: true,
+              text: [Improved downstream semantic alignment of an RVQ-based tokenizer by #highlight[25%] using contrastive learning and multi-stage training.],
+            ),
+            (
+              icon: "database",
+              icon-solid: true,
+              text: [Contributed to curation and post-processing of #highlight[1M+ hours] of audio data.],
+            ),
+            // (icon: "user-tie", icon-solid: true, text: [Supervisor: Han Zhao]),
+          ))
+        ],
+      )
+      #section-element(
         title: [#link("https://labs.smule.com/about/")[Smule Labs] -- Research Intern],
         info: [_Oct. 2025 -- Dec. 2025, Mar. 2026 -- May 2026_],
         [
@@ -182,10 +198,10 @@ You can download the fonts here: https://fontawesome.com/download
             (
               icon: "microphone",
               icon-solid: true,
-              text: [Built a disentangled music semantic embedding by end-to-end audio captioning with self-supervised learning regularizations. Work under preparation for publication.
+              text: [Developed an end-to-end audio-captioning framework for disentangled music-semantic representations; achieved #highlight[>0.4 Spearman audio--caption alignment] in internal evaluations and validated specialization across five musical attributes.
               ],
             ),
-            (icon: "user-tie", icon-solid: true, text: [Supervisor: Yongyi Zang]),
+            // (icon: "user-tie", icon-solid: true, text: [Supervisor: Yongyi Zang]),
           ))
         ],
       )
@@ -199,9 +215,14 @@ You can download the fonts here: https://fontawesome.com/download
             (
               icon: "compact-disc",
               icon-solid: true,
-              text: [Designed end-to-end mixing/mastering system using audio representation learning -- pioneering study on automatic mixing with fully generative approach.],
+              text: [Built a two-stage generative music remixing system using mix-invariant representations and conditional generation.],
             ),
-            (icon: "user-tie", icon-solid: true, text: [Supervisor: Dr. Stefan Lattner]),
+            (
+              icon: "chart-line",
+              icon-solid: true,
+              text: [Reduced content-embedding variation across mixes of the same song by #highlight[>90%] in controlled ablations, without requiring stems at inference.],
+            ),
+            // (icon: "user-tie", icon-solid: true, text: [Supervisor: Dr. Stefan Lattner]),
           ))
         ],
       )
@@ -215,9 +236,9 @@ You can download the fonts here: https://fontawesome.com/download
             (
               icon: "shield-halved",
               icon-solid: true,
-              text: [Trained singer representation model for deepfake detection -- reduced EER by 10%, achieved #highlight[96% top-1 accuracy] on SingFake dataset.],
+              text: [Trained singer-identity representations for singing-voice deepfake detection; #highlight[reduced EER by 10 percentage points] and reached #highlight[96% top-1 accuracy] on SingFake. The system has been integrated into SoundPatrol's infringement detection pipeline.],
             ),
-            (icon: "user-tie", icon-solid: true, text: [Advisor: Prof. John Thickstun, Prof. Walter De Brouwer]),
+            // (icon: "user-tie", icon-solid: true, text: [Advisor: Prof. John Thickstun, Prof. Walter De Brouwer]),
           ))
         ],
       )
@@ -231,37 +252,43 @@ You can download the fonts here: https://fontawesome.com/download
             (
               icon: "wand-magic-sparkles",
               icon-solid: true,
-              text: [Led development of hierarchical symbolic music generation (#highlight[ICLR 2024]) and polyphonic generation with diffusion models (#highlight[ISMIR 2023]).],
+              text: [Developed a four-stage cascaded diffusion system over a hierarchical symbolic language, generating structured pop songs up to #highlight[256 measures] and significantly outperforming baselines on long-range structure (#highlight[ICLR 2024 Spotlight, top 5%]).],
             ),
-            (icon: "user-tie", icon-solid: true, text: [Advisor: Prof. Gus Xia]),
+            (
+              icon: "sliders",
+              icon-solid: true,
+              text: [Developed Polyffusion, a piano-roll DDPM supporting five generation and control tasks via masked inpainting and cross-attention; achieved the best objective results on #highlight[4/5 tasks] and significant gains in naturalness and musicality (#highlight[ISMIR 2023]).],
+            ),
+            // (icon: "user-tie", icon-solid: true, text: [Advisor: Prof. Gus Xia]),
           ))
         ],
       )
     ]
 
-    #section(title: "Publications")[
+    #section(title: "Selected Publications")[
       #set text(size: sizes.text-s2)
       #section-element(
-        title: link(
-          "https://sites.google.com/view/iwsspa-2025/programme",
-        )[Leveraging Rotational M/S Coding and ML in Stereo Audio Coding],
-        info: [_IWSSPA 2025_],
+        title: link("https://arxiv.org/abs/2607.27011")[Qwen-Audio-3.0-Gen-Preview Technical Report],
+        info: [_arXiv 2026.07_],
         [
           #set text(size: sizes.text-s2)
-          #highlight[L. Min], S. Chen, M. Bosi
+          J. Dai et al.; #strong[L. Min] (all authors contributed equally)
         ],
       )
+      #v(-0pt)
 
       #section-element(
-        title: link("https://arxiv.org/abs/2404.06393")[MuPT: A Generative Symbolic Music Pretrained Transformer],
-        info: [_ICLR 2025_],
+        title: link(
+          "https://arxiv.org/abs/2609.08429",
+        )[Semantic Refinement of Universal Audio Representations],
+        info: [submitted to _ICASSP 2027_],
         [
           #set text(size: sizes.text-s2)
-          X. Qu, Y. Bai, ... #highlight[L. Min], et al. #link("https://openreview.net/forum?id=iAK9oHp4Zz")[\[OpenReview\]] #link("https://map-mupt.github.io/")[\[Demo\]]
+          #strong[L. Min] et al.
         ],
       )
-
       #v(-4pt)
+
       #section-element(
         title: link(
           "https://arxiv.org/abs/2405.09901",
@@ -270,114 +297,50 @@ You can download the fonts here: https://fontawesome.com/download
         [
           #set text(size: sizes.text-s2)
           #v(-5pt)
-          Z. Wang, #highlight[L. Min], G. Xia #link("https://openreview.net/forum?id=sn7CYWyavh")[\[OpenReview\]] #link("https://wholesonggen.github.io/")[\[Demo\]]
+          Z. Wang, #strong[L. Min], G. Xia #link("https://openreview.net/forum?id=sn7CYWyavh")[\[OpenReview\]] #link("https://wholesonggen.github.io/")[\[Demo\]]
         ],
       )
+      #v(-0pt)
 
       #section-element(
         title: link("https://arxiv.org/abs/2307.10304")[Polyffusion: A Diffusion Model for Polyphonic Score Generation],
         info: [_ISMIR 2023_],
         [
           #set text(size: sizes.text-s2)
-          #highlight[L. Min], J. Jiang, G. Xia, J. Zhao #link("https://ismir2023program.ismir.net/poster_51.html")[\[Poster\]] #link("https://polyffusion.github.io/")[\[Demo\]]
+          #strong[L. Min], J. Jiang, G. Xia, J. Zhao #link("https://ismir2023program.ismir.net/poster_51.html")[\[Poster\]] #link("https://polyffusion.github.io/")[\[Demo\]] #link("https://github.com/aik2mlj/polyffusion")[\[Code\]]
+        ],
+      )
+      #v(-0pt)
+      #section-element(
+        title: link("https://arxiv.org/abs/2404.06393")[MuPT: A Generative Symbolic Music Pretrained Transformer],
+        info: [_ICLR 2025_],
+        [
+          #set text(size: sizes.text-s2)
+          X. Qu et al.; #strong[L. Min] (#strong[8/28]) #link("https://openreview.net/forum?id=iAK9oHp4Zz")[\[OpenReview\]] #link("https://map-mupt.github.io/")[\[Demo\]]
+        ],
+      )
+
+      #v(-0pt)
+
+      #section-element(
+        title: link(
+          "https://sites.google.com/view/iwsspa-2025/programme",
+        )[Leveraging Rotational M/S Coding and ML in Stereo Audio Coding],
+        info: [_IWSSPA 2025_],
+        [
+          #set text(size: sizes.text-s2)
+          #strong[L. Min], S. Chen, M. Bosi
         ],
       )
     ]
 
-    #section(title: "Teaching")[
-      // #section-element(title: "Music 422: Perceptual Audio Coding", info: [Winter 2026])[
-      //   #set text(size: sizes.text-s2)
-      //   Teaching Assistant for Prof. Marina Bosi, Stanford University
-      // ]
-      //
-      #v(3pt)
-      #set text(size: sizes.text-s2)
-      #text(weight: "semibold")[Perceptual Audio Coding], Teaching Assistant at Stanford #h(1fr) #text(size: sizes.text-s3)[Winter 2026]
-
-      #text(weight: "semibold")[Reinforcement Learning], Teaching Assistant at SJTU #h(1fr) #text(size: sizes.text-s3)[Spring 2023]
-
-      #text(weight: "semibold")[Design and Analysis of Algorithms], Teaching Assistant at SJTU #h(1fr) #text(size: sizes.text-s3)[Spring 2022]
-
-      #text(weight: "semibold")[Principle and Practice of Computer Algorithms], Teaching Assistant at SJTU #h(1fr) #text(size: sizes.text-s3)[Summer 2021]
-    ]
-
-    #section(title: "Selected Projects")[
-      // #section-element(title: "Programming")[
-      #v(3pt)
-      #set text(size: sizes.text-s2)
-      #icon-list((
-        // (
-        //   icon: "cube",
-        //   icon-solid: true,
-        //   text: [#link("https://lejun.site/projects/scotty3d/")[#highlight[Scotty3D]]: Software rasterization, mesh editing, path tracing, animation (C++)],
-        // ),
-        (
-          icon: "code",
-          icon-solid: true,
-          text: [#link("https://lejun.site/projects/mx-compiler/")[#highlight[Mx Compiler]]: Hand-made compiler surpassing -O1 optimization (_Java_)],
-        ),
-        (
-          icon: "microchip",
-          icon-solid: true,
-          text: [#link("https://lejun.site/projects/riscv-cpu/")[#highlight[RISC-V CPU]]: 5-pipelined RISCV32I with FPGA implementation (_Verilog_)],
-        ),
-        (
-          icon: "sun",
-          icon-solid: true,
-          text: [#link("https://lejun.site/projects/raytracer/")[#highlight[Ray Tracer]]: Complete ray tracing engine in Rust],
-        ),
-        (
-          icon: "headphones",
-          icon-solid: true,
-          text: [#link("https://lejun.site/portfolio/a-chan-conversation/")[#highlight[A Chan Conversation]]: Ambisonics performance with Gametrak],
-        ),
-        (
-          icon: "umbrella",
-          icon-solid: true,
-          text: [#link("https://lejun.site/portfolio/umbrella-intermedia/")[#highlight[Umbrella]]: Intermedia piece for Ambisonics audio & video exploring self and fear],
-        ),
-        (
-          icon: "gamepad",
-          text: [#link("https://lejun.site/portfolio/sonic-skateboard/")[#highlight[Sonic Skateboard]]: Arduino + ChucK musical instrument],
-        ),
-        // (
-        //   icon: "record-vinyl",
-        //   icon-solid: true,
-        //   text: [#link("https://lejun.site/portfolio/sunset-sea/")[#highlight[晼海 (Sunset Sea)]]: Electronic music published under #link("http://www.cemofficial.com/")[CEM Records]],
-        // ),
-      ))
-      // ]
-
-      // #section-element(title: "Art & Music")[
-      //   #set text(size: sizes.text-s2)
-      // #icon-list((
-      //   (
-      //     icon: "headphones",
-      //     icon-solid: true,
-      //     text: [#link("https://lejun.site/portfolio/a-chan-conversation/")[#highlight[A Chan Conversation]]: Ambisonics performance with Gametrak],
-      //   ),
-      //   (
-      //     icon: "umbrella",
-      //     icon-solid: true,
-      //     text: [#link("https://lejun.site/portfolio/umbrella-intermedia/")[#highlight[Umbrella]]: Intermedia piece for Ambisonics audio & video exploring self and fear],
-      //   ),
-      //   (
-      //     icon: "gamepad",
-      //     text: [#link("https://lejun.site/portfolio/sonic-skateboard/")[#highlight[Sonic Skateboard]]: Arduino + ChucK musical instrument],
-      //   ),
-      // (
-      //   icon: "palette",
-      //   icon-solid: true,
-      //   text: [#link("https://lejun.site/portfolio/kandinsky-sonified/")[#highlight[Kandinsky Sonified]]: Interactive audiovisual music sequencer creating Kandinsky-like abstract paintings],
-      // ),
-      // (
-      //   icon: "record-vinyl",
-      //   icon-solid: true,
-      //   text: [#link("https://lejun.site/portfolio/sunset-sea/")[#highlight[晼海 (Sunset Sea)]]: Electronic music published under #link("http://www.cemofficial.com/")[CEM Records]],
-      // ),
-      // ))
-      // ]
-    ]
+    // #section(title: "Teaching")[
+    //   #v(3pt)
+    //   #set text(size: sizes.text-s2)
+    //   #text(weight: "semibold")[Perceptual Audio Coding], Teaching Assistant at Stanford #h(1fr) #text(size: sizes.text-s3)[_Winter 2026_]
+    //
+    //   // #text(weight: "semibold")[ChucK Development Team], Contributor at Stanford CCRMA #h(1fr) #text(size: sizes.text-s3)[_2025 -- Present_]
+    // ]
 
   ],
 )

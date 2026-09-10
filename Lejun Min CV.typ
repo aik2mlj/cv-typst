@@ -42,20 +42,20 @@
 
 #set align(center)
 #text(size: 20pt)[*Lejun Min*] \
-Researcher, Artist \
+Audio ML Researcher & Artist \
 #link("mailto:contact@lejun.site")[contact\@lejun.site] | #link("https://lejun.site")[Webpage] | #link("https://www.linkedin.com/in/lejun-min-1981a5254/")[LinkedIn]
 
 #set align(left)
 == EDUCATION
 #chiline()
 
-*Center for Computer Research in Music and Acoustics, Stanford University* #h(1fr) Sept. 2024 -- Present \
-Master of Arts in _Music, Science, and Technology_ #h(1fr) California, United States
+*Center for Computer Research in Music and Acoustics, Stanford University* #h(1fr) California, United States \
+Master of Arts in _Music, Science, and Technology_ #h(1fr) Sept. 2024 -- Expected Jan. 2027
 - GPA: 4.0 / 4.0.
 - Advisor: Prof. Marina Bosi, Prof. Takako Fujioka.
 
-*Zhiyuan College, Shanghai Jiao Tong University* #h(1fr) Sept. 2019 -- June 2023 \
-Bachelor of Engineering in _Computer Science_ (Fellowship) #h(1fr) Shanghai, China \
+*Zhiyuan College, Shanghai Jiao Tong University* #h(1fr) Shanghai, China \
+Bachelor of Engineering in _Computer Science_ (Fellowship) #h(1fr) Sept. 2019 -- June 2023 \
 - Member of *ACM Honor Class*, an elite CS program for *top 5%* students.
 - Graduated with *top 1%* _Outstanding Bachelor's Thesis_.
 - GPA: 89/100 (ranking: 5/27).
@@ -63,9 +63,14 @@ Bachelor of Engineering in _Computer Science_ (Fellowship) #h(1fr) Shanghai, Chi
 == PUBLICATIONS
 #chiline()
 
+*L.Min*, et al., "Semantic Refinement of Universal Audio Representations through Audio-Description Alignment", _arXiv preprint arXiv:2609.08429_, September 2026. [#link("https://arxiv.org/abs/2607.27011")[arXiv]]
+
+
+J. Dai, X. Duan, X. Fan, Y. Feng, J. Li, X. Li, Y. Li, *L. Min*, et al., "Qwen-Audio-3.0-Gen-Preview Technical Report", _arXiv preprint arXiv:2607.27011_, July 2026. *(Equal contribution; alphabetical by family name.)* [#link("https://arxiv.org/abs/2607.27011")[arXiv]]
+
 *L. Min*, S. Chen, M. Bosi, "Leveraging Rotational M/S Coding and Machine Learning in Stereo Audio Coding", in _International Workshop on Sound Signal Processing Applications (IWSSPA 2025)_, Costa Ballena, Spain, July 2025. [#link("https://sites.google.com/view/iwsspa-2025/programme")[Program]]
 
-X. Qu, Y. Bai, Y. Ma, Z. Zhou, K. Lo, J. Liu, R. Yuan, *L. Min*, X. Liu, T. Zhang, X. Du, S. Guo, Y. Liang, Y. Li, S. Wu, J. Zhou, T. Zheng, Z. Ma, F. Han, W. Xue, G. Xia, E. Benetos, X. Yue, C. Lin, X. Tan, S. Huang, W. Chen, J. Fu, G. Zhang, "MuPT: A Generative Symbolic Music Pretrained Transformer", in _Proc. 13#super[th] International Conference on Learning Representations (ICLR 2025)_, Singapore, April 2025. [#link("https://arxiv.org/abs/2404.06393")[arXiv]] [#link("https://openreview.net/forum?id=iAK9oHp4Zz")[OpenReview]] [#link("https://map-mupt.github.io/")[Demo]]
+X. Qu, Y. Bai, Y. Ma, Z. Zhou, K. Lo, J. Liu, R. Yuan, *L. Min*, et al., "MuPT: A Generative Symbolic Music Pretrained Transformer", in _Proc. 13#super[th] International Conference on Learning Representations (ICLR 2025)_, Singapore, April 2025. [#link("https://arxiv.org/abs/2404.06393")[arXiv]] [#link("https://openreview.net/forum?id=iAK9oHp4Zz")[OpenReview]] [#link("https://map-mupt.github.io/")[Demo]]
 
 Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music Using Cascaded Diffusion Models", *Spotlight (top 5%)* in _Proc. 12#super[th] International Conference on Learning Representations (ICLR 2024)_, Vienna, Austria, May 2024. [#link("https://arxiv.org/abs/2405.09901")[arXiv]] [#link("https://openreview.net/forum?id=sn7CYWyavh")[OpenReview]] [#link("https://wholesonggen.github.io/")[Demo]]
 
@@ -74,26 +79,33 @@ Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music
 
 == RESEARCH EXPERIENCE
 #chiline()
+*#link("https://tongyi.aliyun.com/")[Qwen Audio, Tongyi Lab, Alibaba Token Foundry]*, Research Intern #h(1fr) June 2026 -- Present
+- Co-developed the public Qwen-Audio-3.0-Gen-Preview model for long-form, multi-character audio scenes with temporal control.
+- Improved the semantic alignment of its residual-vector-quantized audio tokenizer by *25%* through contrastive learning and multi-stage training.
+- Contributed to the curation and post-processing of *1M+ hours* of audio data.
+- Supervisor: Han Zhao.
+
 *#link("https://labs.smule.com/about/")[Smule Labs]*, Research Intern #h(1fr) Oct. 2025 -- Dec. 2025, Mar. 2026 -- May 2026
-- Built a disentangled music semantic embedding by end-to-end audio captioning with self-supervised learning regularizations. Work under preparation for publication.
+- Developed an end-to-end audio-captioning framework for disentangled music-semantic representations; achieved *>0.4 Spearman* audio--caption alignment and validated specialization across *five musical attributes* in internal evaluations.
 - Supervisor: Yongyi Zang.
 
-#link("https://csl.sony.fr/")[*Sony Computer Science Laboratories - Paris*], Research Intern #h(1fr) June 2025 -- Sept. 2025
-- Designed an end-to-end (re-)mixing and mastering system using audio representation learning and generation. This is a pioneering study on automatic mixing with a fully generative approach. Work under preparation for publication.
-// - Experimented adding different schemes of self-supervision to the representation learning stage.
+#link("https://csl.sony.fr/")[*Sony Computer Science Laboratories (CSL) Paris*], Research Intern #h(1fr) June 2025 -- Sept. 2025
+- Built a two-stage generative remixing system using mix-invariant representations and conditional generation.
+- Reduced the mix-to-content variation ratio by *>90%* in internal ablations, without requiring stems at inference.
 - Supervisor: Dr. Stefan Lattner.
 
 *#link("https://soundpatrol.com/")[SoundPatrol] & Stanford University*, Research Assistant #h(1fr) Feb. 2025 -- May 2025
-- Trained a singer representation model that discerns deep fake singing synthesis as potential copyright infringement. Reduced the equal error rate (EER) by 10% and boosted the top-1 accuracy up to 96% on the _SingFake_ dataset.
+- Trained singer-identity representations for singing-voice deepfake detection; reduced EER by *10 percentage points* and achieved *96% top-1 accuracy* on the _SingFake_ dataset. The system was integrated into SoundPatrol's infringement-detection pipeline.
 - Advisor: Prof. John Thickstun, Prof. Walter De Brouwer.
 
 *#link("https://www.musicxlab.com/")[Music X Lab]*, *MBZUAI*, Research Assistant #h(1fr) Sept. 2023 -- Feb. 2024
-- Designed and implemented comprehensive experiments for the hierarchical generation of symbolic music, with a cascaded diffusion model as backend. Work published at ICLR 2024.
-// - Experimented on performance rendering for symbolic music using Transformer architecture.
+- Developed a four-stage cascaded diffusion framework and a hierarchical symbolic language for coherent whole-song generation up to *256 measures*.
+- Significantly outperformed baselines on long-range structural coherence; published as an *ICLR 2024 Spotlight (top 5%)*.
 - Advisor: Prof. Gus Xia.
 
 *#link("https://www.musicxlab.com/")[Music X Lab]*, *MBZUAI*, Research Assistant #h(1fr) June 2022 -- Dec. 2022 \
-- Achieved state-of-the-art polyphonic music generation using diffusion models, with two novel control paradigms: internal control via masked generation, and external control via cross-attention mechanism. Work published at ISMIR 2023.
+- Developed Polyffusion, a piano-roll DDPM supporting five generation and control tasks through masked inpainting and cross-attention.
+- Achieved the best objective results on *four of five tasks* and significant gains in perceived naturalness and musicality; published at *ISMIR 2023*.
 - Advisor: Prof. Gus Xia.
 
 // *#link("https://www.musicxlab.com/")[Music X Lab], NYU Shanghai*, Undergraduate Researcher #h(1fr) Jan. 2022 -- May 2022 \
@@ -135,15 +147,18 @@ Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music
 #set terms(hanging-indent: 13.5em, indent: 0em)
 / #box(
     width: 13em,
-  )[Research Specialties]: Music Generation, Music Information Retrieval, Representation & Multimodal Learning, Digital Signal Processing, Human-Computer Interaction
-/ #box(width: 13em)[Programming Languages]: C++, C, Python, Java, Rust, Verilog, Lua, Arduino, WGSL, Bash, LaTeX, Typst
-/ #box(width: 13em)[Machine Learning]: PyTorch, TensorFlow, Accelerate, Lightning
+  )[Research Specialties]: Audio & Music Generation, Audio Representation Learning, Audio Captioning, Music Information Retrieval, Audio Tokenization & Neural Codecs, Audio Deepfake Detection, Perceptual Audio Coding, Digital Signal Processing, Human-Computer Interaction
 / #box(
     width: 13em,
-  )[Development Environment]: Arch Linux (main OS), Neovim (main editor), Ubuntu, VSCode, Git, Docker
+  )[Machine Learning]: Diffusion Models, Transformers, Self-Supervised Learning, Multimodal Learning, Contrastive Learning
+/ #box(width: 13em)[Programming Languages]: Python, C++, C, Rust, Java, Bash, Lua, Verilog, WGSL
+/ #box(width: 13em)[ML Frameworks]: PyTorch, TensorFlow, Hugging Face, torchaudio, librosa, Accelerate, Lightning
 / #box(
     width: 13em,
-  )[Audio & Graphics Software]: JUCE, ChucK, Reaper, Adobe Audition, FL Studio, Pure Data, Audacity, Blender, Adobe Premiere, Kdenlive, Krita
+  )[ML Systems]: Distributed Training, Linux, Docker, SLURM, MLflow, Git
+/ #box(
+    width: 13em,
+  )[Audio & Creative Tools]: JUCE, ChucK, Reaper, Pure Data, Ambisonics, Adobe Audition, FL Studio, Audacity, Blender, Adobe Premiere, Kdenlive, Krita, LaTeX, Typst
 
 
 == AWARDS & HONORS
@@ -155,20 +170,20 @@ Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music
 *Longhu Scholarship* (top 5% in Zhiyuan College) #h(1fr) Apr. 2023\
 *SJTU Student of Merit* (one awardee in each major) #h(1fr) Dec. 2021\
 // *Member of ACM Honor Class* (top 5% in Computer Science) #h(1fr) 2019 - 2023\
-*Zhiyuan Honorary Scholarship* #h(1fr) 2019 - 2023\
+*Zhiyuan Honorary Scholarship* #h(1fr) 2019 -- 2023\
 
 == TEACHING
 #chiline()
 
 *Perceptual Audio Coding (#link("https://ccrma.stanford.edu/courses/422")[Music 422])*, *Stanford University*, Teaching Assistant #h(1fr) Winter 2026
-- Taught a #link("https://lejun.site/teaching/2026-winter-music422")[review lecture] on perceptual audio codec components. Renovated coding environment setup with a #link("https://github.com/aik2mlj/MUSIC422-template")[template repository].
+- Taught a #link("https://lejun.site/teaching/2026-winter-music422")[review lecture] on perceptual audio codec components and modernized the coding environment through a reusable #link("https://github.com/aik2mlj/MUSIC422-template")[template repository].
 - Lecturer: Prof. Marina Bosi.
 
 *Reinforcement Learning (#link("https://wnzhang.net/teaching/sjtu-rl-2024/")[CS 3316])*, *SJTU*, Teaching Assistant #h(1fr) Spring 2023
-- Designed a final project that involves single- or multi-agent learning for simulated hands and legged robot.
+- Designed a final project involving single- and multi-agent learning for simulated robotic hands and legged robots.
 - Lecturer: Prof. Weinan Zhang.
 
-*Design and Analysis of Algorithms (#link("https://wnzhang.net/teaching/sjtu-rl-2024/")[AI 2615])*, *SJTU*, Teaching Assistant #h(1fr) Spring 2022
+*Design and Analysis of Algorithms (AI 2615)*, *SJTU*, Teaching Assistant #h(1fr) Spring 2022
 - Prepared well-written lecture notes and answers for assignments.
 - Lecturer: Prof. Chihao Zhang.
 
@@ -187,7 +202,7 @@ Z. Wang, *L. Min*, G. Xia, "Whole-song Hierarchical Generation of Symbolic Music
 An interactive 3D fluids simulation based on Taichi framework.
 
 #link("https://lejun.site/projects/scotty3d/")[*Scotty3D*] (_C++_) #h(1fr) Mar. 2022\
-A comprehensive CG project including software rastization, interactive mesh editing, path tracing, and dynamic animation.
+A comprehensive computer graphics project covering software rasterization, interactive mesh editing, path tracing, and animation.
 
 #link("https://lejun.site/projects/raytracer/")[*Ray Tracer*] (_Rust_) #h(1fr) Aug. 2020\
 A complete ray tracing engine in Rust.
@@ -206,10 +221,10 @@ A complete ray tracing engine in Rust.
 #dotedline()
 
 #link("https://lejun.site/projects/mx-compiler/")[*Mx Compiler*] (_Java_) #h(1fr) May 2021\
-A completely hand-made compiler for a toy language (Java subset) that surpasses `-o1` optimization.
+A compiler for a Java-like language whose optimizations outperform the reference `-O1` baseline.
 
 #link("https://lejun.site/projects/riscv-cpu/")[*RISC-V CPU*] (_Verilog_) #h(1fr) Dec. 2020\
-An emulated 5-pipelined RISCV32I CPU with real-world FPGA implementation.
+A five-stage pipelined RV32I CPU implemented and validated on an FPGA.
 
 #link("https://lejun.site/projects/python_interpreter/")[*Python Interpreter*] (_C++_) #h(1fr) Feb. 2020\
 A Python language interpreter.
@@ -218,7 +233,7 @@ A Python language interpreter.
 #dotedline()
 
 #link("https://lejun.site/projects/ticket-system/")[*Train Ticket System*] (_C++_) #h(1fr) June 2020\
-A cooperated project including backend coding, B+ Tree data structure implementation and frontend website design.
+A collaborative full-stack project featuring a custom B+ tree storage layer and a web interface.
 
 
 == ART PRACTICES
@@ -228,7 +243,7 @@ A cooperated project including backend coding, B+ Tree data structure implementa
 #dotedline()
 
 #link("https://lejun.site/portfolio/dream-sound-poetry/")[*Sound Poetry*], _for 2-channel audio & vocalists_  #h(1fr) Dec. 2025\
-A musique concrète sound poem about dream, and a mandarin (grape) fugue.
+A musique concrète sound poem about dreams, followed by a mandarin (grape) fugue.
 
 #link("https://lejun.site/portfolio/umbrella-intermedia/")[*Umbrella*], _for Ambisonics audio & video_ #h(1fr) Dec. 2025\
 An intermedia piece exploring the nature of self and fear.
@@ -237,13 +252,13 @@ An intermedia piece exploring the nature of self and fear.
 Breaking the fourth wall with the interplanetary teleportation system.
 
 #link("https://lejun.site/portfolio/a-chan-conversation/")[*A Chan Conversation*], _for Ambisonics audio, Gametrak, & live performer_ #h(1fr) May 2025\
-A sonic conversation with an ancient Chan Buddhist monk. Performed on #link("https://ccrma.stanford.edu/ccrma-open-house-2025")[CCRMA Open House Concert 2025].
+A sonic conversation with an ancient Chan Buddhist monk. Performed at the #link("https://ccrma.stanford.edu/ccrma-open-house-2025")[CCRMA Open House Concert 2025].
 
 == Interface & Interactive Design
 #dotedline()
 
 #link("https://lejun.site/portfolio/sonic-skateboard/")[*Sonic Skateboard*] (_Arduino & #link("https://chuck.stanford.edu/")[ChucK]_) #h(1fr) June 2025\
-Turn my skateboard into a musical instrument.
+Turns a skateboard into a musical instrument.
 
 #link("https://lejun.site/portfolio/blackhole/")[*Talking to A Black Hole*] (_#link("https://chuck.stanford.edu/")[ChucK] & #link("https://chuck.stanford.edu/chugl/")[ChuGL]_ & _#link("https://www.w3.org/TR/WGSL/")[WGSL]_) #h(1fr) Dec. 2024\
 Let the noise guide you through the event horizon of a lonely black hole.
@@ -258,7 +273,7 @@ An interactive music therapy journey embodying a firefly. Essentially a #link("h
 #dotedline()
 
 #link("https://lejun.site/portfolio/backrooms/")[*The Backrooms: Audio Drama*], _for binaural audio_ #h(1fr) Dec. 2024\
-The protagonist "no-clipped" into a weird space where he heard things beyond his comprehension.
+The protagonist "no-clips" into a strange space and hears things beyond his comprehension.
 
 #link("https://lejun.site/portfolio/yijiu/")[*忆久 (Memories Last Long)*] #h(1fr) June 2023\
 A song and a music video dedicated to the Zhiyuan College graduates of 2023.
@@ -281,11 +296,11 @@ A minimalistic email address book with #link("https://aerc-mail.org/")[aerc] int
 #link("https://github.com/aik2mlj/chuckfmt")[*chuckfmt*] (_Rust_), Author & Packager \
 A fast code formatter for #link("https://chuck.stanford.edu/")[ChucK] programming language.
 
-#link("https://github.com/aik2mlj/cli-toolbox")[*cli-toobox*] (_Shell Scripts_), Author \
+#link("https://github.com/aik2mlj/cli-toolbox")[*cli-toolbox*] (_Shell Scripts_), Author \
 A curated collection of modern command-line tools and configurations for terminal-based development.
 
 #link("https://github.com/aik2mlj/AUR")[*AUR*] (_Shell Scripts_), Packager \
-My managed #link("https://aur.archlinux.org/")[Arch User Repository] packages with automated version tracking and updates.
+A collection of maintained #link("https://aur.archlinux.org/")[Arch User Repository] packages with automated version tracking and updates.
 
 #link("https://github.com/plugdata-team/plugdata")[*plugdata*] (_C++_), Packager \
 A plugin wrapper for #link("https://puredata.info/")[Pure Data], featuring a new GUI made with #link("https://juce.com/")[JUCE].
@@ -297,10 +312,10 @@ A plugin wrapper for #link("https://puredata.info/")[Pure Data], featuring a new
 #link("https://ligeti-zentrum.de/icmc-2026/")[*International Computer Music Conference (ICMC) 2026*], Reviewer #h(1fr) 2026 \
 #link("https://icmc2025.sites.northeastern.edu/")[*International Computer Music Conference (ICMC) 2025*], Reviewer #h(1fr) 2025 \
 *#link("https://m-a-p.ai/LLM4Music/")[Large Language Models for Music & Audio (LLM4MA) Workshop] at #link("https://ismir2025.ismir.net/")[ISMIR 2025]*, Reviewer #h(1fr) 2025 \
-#link("https://chuck.stanford.edu/doc/authors.html")[*ChucK Development Team*], *CCRMA*, *Stanford University*, Contributor #h(1fr) 2025 - Present \
-*Game Audio Initiative*, *Stanford University*, Founder #h(1fr) 2025 - Present \
-#link("https://ccrma.stanford.edu/dsp-seminars")[*DSP Seminar*], *CCRMA*, *Stanford University*, Speaker & Contributor #h(1fr) 2024 - Present \
-#link("https://aur.archlinux.org/packages?K=aik2&SeB=m")[*Arch User Repository (AUR)*], Maintainer (id: aik2) #h(1fr) 2022 - Present \
+#link("https://chuck.stanford.edu/doc/authors.html")[*ChucK Development Team*], *CCRMA*, *Stanford University*, Contributor #h(1fr) 2025 -- Present \
+*Game Audio Initiative*, *Stanford University*, Founder #h(1fr) 2025 -- Present \
+#link("https://ccrma.stanford.edu/dsp-seminars")[*DSP Seminar*], *CCRMA*, *Stanford University*, Speaker & Contributor #h(1fr) 2024 -- Present \
+#link("https://aur.archlinux.org/packages?K=aik2&SeB=m")[*Arch User Repository (AUR)*], Maintainer (id: aik2) #h(1fr) 2022 -- Present \
 
 
 == LANGUAGE PROFICIENCY
