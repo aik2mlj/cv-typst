@@ -52,7 +52,7 @@ Audio ML Researcher & Artist \
 *Center for Computer Research in Music and Acoustics, Stanford University* #h(1fr) California, United States \
 Master of Arts in _Music, Science, and Technology_ #h(1fr) Sept. 2024 -- Expected Jan. 2027
 - GPA: 4.0 / 4.0.
-- Advisor: Prof. Marina Bosi, Prof. Takako Fujioka.
+// - Advisor: Prof. Marina Bosi, Prof. Takako Fujioka.
 
 *Zhiyuan College, Shanghai Jiao Tong University* #h(1fr) Shanghai, China \
 Bachelor of Engineering in _Computer Science_ (Fellowship) #h(1fr) Sept. 2019 -- June 2023 \
@@ -63,8 +63,9 @@ Bachelor of Engineering in _Computer Science_ (Fellowship) #h(1fr) Sept. 2019 --
 == PUBLICATIONS
 #chiline()
 
-*L.Min*, et al., "Semantic Refinement of Universal Audio Representations through Audio-Description Alignment", _arXiv preprint arXiv:2609.08429_, September 2026. [#link("https://arxiv.org/abs/2607.27011")[arXiv]]
+*L.Min*, et al., "KunSet: A Corpus and Benchmark for Lyrics Alignment and Rhyme Retrieval in Kunqu Opera", _arXiv preprint arXiv:2610.29031_, October 2026. [#link("https://arxiv.org/abs/2610.29031")[arXiv]]
 
+*L.Min*, et al., "Semantic Refinement of Universal Audio Representations through Audio-Description Alignment", _arXiv preprint arXiv:2609.08429_, September 2026. [#link("https://arxiv.org/abs/2607.27011")[arXiv]]
 
 J. Dai, X. Duan, X. Fan, Y. Feng, J. Li, X. Li, Y. Li, *L. Min*, et al., "Qwen-Audio-3.0-Gen-Preview Technical Report", _arXiv preprint arXiv:2607.27011_, July 2026. *(Equal contribution; alphabetical by family name.)* [#link("https://arxiv.org/abs/2607.27011")[arXiv]]
 
@@ -242,8 +243,14 @@ A collaborative full-stack project featuring a custom B+ tree storage layer and 
 == Live Performance & Intermedia Art
 #dotedline()
 
-#link("https://lejun.site/portfolio/dream-sound-poetry/")[*Sound Poetry*], _for 2-channel audio & vocalists_  #h(1fr) Dec. 2025\
-A musique concrète sound poem about dreams, followed by a mandarin (grape) fugue.
+#link("https://lejun.site/portfolio/weave-slork/")[*Weave*], _for Stanford Laptop Orchestra (SLOrk)_  #h(1fr) June 2026\
+You are only one individual. But together you can weave something that withstands time.
+
+#link("https://lejun.site/portfolio/you-the-duration/")[*You, the Duration*], _for 8-channel audio_ #h(1fr) May 2026\
+Perhaps, memory isn’t a container, it’s a pipe.
+
+#link("https://lejun.site/portfolio/voices-slork/")[*Voices*], _for Stanford Laptop Orchestra (SLOrk)_  #h(1fr) May 2026\
+Throwing ideas into the world and taking thoughts on as our own; when does the boundary between individual and influence blur?
 
 #link("https://lejun.site/portfolio/umbrella-intermedia/")[*Umbrella*], _for Ambisonics audio & video_ #h(1fr) Dec. 2025\
 An intermedia piece exploring the nature of self and fear.
@@ -271,6 +278,9 @@ An interactive music therapy journey embodying a firefly. Essentially a #link("h
 
 == Music & Sound Art
 #dotedline()
+
+#link("https://lejun.site/portfolio/dream-sound-poetry/")[*Dream*], _for stereo audio_  #h(1fr) Dec. 2025\
+A musique concrète sound poem about dreams.
 
 #link("https://lejun.site/portfolio/backrooms/")[*The Backrooms: Audio Drama*], _for binaural audio_ #h(1fr) Dec. 2024\
 The protagonist "no-clips" into a strange space and hears things beyond his comprehension.
